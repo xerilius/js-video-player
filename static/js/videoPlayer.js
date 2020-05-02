@@ -37,14 +37,21 @@ function updateButton() {
 }
 
 function skip() {
-
+    console.log(this); // skip button 
+    console.log(this.dataset); // returns dataset attribute
+    console.log(this.dataset.skip); // dataset attribute value string --> 25
+    console.log(video.currentTime);
+    // adding seconds to video's current time
+    video.currentTime += parseFloat(this.dataset.skip);
 }
+
+
 
 // 3. Event Listeners
 video.addEventListener('click', playVideo);
 playButton.addEventListener('click', playVideo);
-
+// play button
 video.addEventListener('play', updateButton);
 video.addEventListener('pause', updateButton);
-
-skipButtons.forEach()
+// for all skip buttons
+skipButtons.forEach(button => button.addEventListener('click', skip));
