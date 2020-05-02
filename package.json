@@ -1,0 +1,14 @@
+{
+  "name": "crunchyroll-darkmode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass static/sass/main.scss static/css/style.css -w"
+  },
+  "author": "Grace Chung",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.14.0"
+  }
+}
