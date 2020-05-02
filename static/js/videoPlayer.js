@@ -60,6 +60,13 @@ function updateProgressBar() {
     progressBar.style.flexBasis = `${percent}%`;
 }
 
+function changeVideoTime(evt) {
+    // console.log(evt); // returns mouse event
+    // console.log(this); // returns DOM element
+    // (evt.offsetX / width of progress bar)
+    const changeTime = (evt.offsetX / progress.offsetWidth) * video.duration;
+    video.currentTime = changeTime;
+}
 
 // 3. Event Listeners
 video.addEventListener('click', playVideo);
@@ -77,4 +84,11 @@ skipButtons.forEach(button => button.addEventListener('click', skip));
 
 // for all range buttons
 ranges.forEach(range => range.addEventListener('change', updateRange));
+
+// changing video time when clicking on progress bar
+let mousedown = false;
+progress.addEventListener('click', changeVideoTime);
+progress.addEventListener('mousemove', (evt) => (mousedown==true) && changeVideoTime(evt));
+progress.addEventListener('mousedown', () => mousedown = true);
+progress.addEventListener('mouseup', () => mousedown = false);
 
