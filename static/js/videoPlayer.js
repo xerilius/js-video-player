@@ -40,8 +40,8 @@ function updateButton() {
 function skip() {
     // console.log(this); // skip button 
     // console.log(this.dataset); // returns dataset attribute
-    // console.log(this.dataset.skip); // dataset attribute value string --> 25
-    // console.log(video.currentTime);
+    console.log(this.dataset.skip); // dataset attribute value string --> 25
+    console.log(video.currentTime);
 
     // adding seconds to video's current time
     video.currentTime += parseFloat(this.dataset.skip);
