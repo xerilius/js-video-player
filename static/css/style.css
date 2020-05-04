@@ -153,7 +153,8 @@ input[type=range]::-moz-range-thumb {
   justify-content: center;
   align-items: center; }
   .navbar nav {
-    margin: 0 1.5rem; }
+    margin: 0 1.5rem;
+    font-size: 1rem; }
   .navbar__logo {
     font-size: 1.5rem;
     padding: 0 3rem; }
@@ -163,8 +164,7 @@ input[type=range]::-moz-range-thumb {
       vertical-align: middle; }
   .navbar__links {
     list-style-type: none;
-    margin: 0;
-    font-size: 1rem; }
+    margin: 0; }
     .navbar__links--mag {
       color: orange; }
     .navbar__links li {
@@ -186,12 +186,11 @@ input[type=range]::-moz-range-thumb {
         border: 0;
         color: orange;
         font-family: 'Montserrat', sans-serif;
-        font-size: 1.1rem; }
+        font-size: 1rem; }
         .navbar__links li input:focus {
           outline: none; }
       .navbar__links li i {
-        color: white;
-        font-size: 1.5rem; }
+        color: white; }
 
 a.navbar__logo--link:active, a.navbar__logo--link:visited {
   color: orange; }

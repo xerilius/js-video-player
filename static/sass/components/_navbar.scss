@@ -16,7 +16,8 @@
     
     & nav { 
         margin: 0 1.5rem;
-        // margin-right: auto;    
+        // margin-right: auto;  
+        font-size: 1rem;  
     }
     
     &__logo {
@@ -34,7 +35,6 @@
     &__links {
         list-style-type: none;
         margin: 0;
-        font-size: 1rem;
 
         &--mag{
             color: orange;
@@ -65,7 +65,7 @@
                 border: 0;
                 color: orange;
                 font-family: 'Montserrat', sans-serif;
-                font-size: 1.1rem;
+                font-size: 1rem;
                
                 &:focus {
                     outline: none;
@@ -74,7 +74,6 @@
 
             & i {
                 color: white;
-                font-size: 1.5rem;
             }
            
         }
