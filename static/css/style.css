@@ -10,20 +10,15 @@ html {
   font-size: 62.5%; }
 
 body {
-  box-sizing: border-box;
-  padding: 3rem; }
+  box-sizing: border-box; }
 
 body {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  background: #252525;
+  background: #1c1f22;
   min-height: 100vh;
-  background-size: cover;
-  align-items: center;
-  justify-content: center; }
+  background-size: cover; }
 
 .player {
+  margin: 0 auto;
   max-width: 750px;
   border: 5px solid rgba(0, 0, 0, 0.2);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
@@ -41,6 +36,7 @@ body {
   width: 100%; }
 
 .player__video {
+  display: inline-block;
   width: 100%; }
 
 .player__button {
@@ -143,3 +139,56 @@ input[type=range]::-moz-range-thumb {
   border-radius: 50px;
   background: #ffc600;
   cursor: pointer; }
+
+.navbar {
+  margin: 0 auto;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  letter-spacing: .2rem;
+  text-transform: lowercase;
+  font-weight: bold;
+  min-height: 50px;
+  background-color: rgba(0, 0, 0, 0.267);
+  padding: 0 50rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center; }
+  .navbar nav {
+    margin: 0 1.5rem; }
+  .navbar__logo {
+    font-size: 2rem;
+    margin-right: auto; }
+    .navbar__logo--img {
+      height: 50px;
+      width: 50px;
+      vertical-align: middle; }
+  .navbar__links {
+    list-style-type: none;
+    margin: 0;
+    font-size: 1.2rem; }
+    .navbar__links li {
+      display: inline-block;
+      padding: 0 .7rem; }
+      .navbar__links li small {
+        vertical-align: super;
+        font-size: 1rem;
+        color: orange;
+        text-transform: uppercase;
+        font-family: 'Roboto Condensed', sans-serif; }
+      .navbar__links li a {
+        color: white;
+        transition: all 0.3s ease 0s; }
+        .navbar__links li a:hover {
+          color: orange; }
+
+a.navbar__logo--link:active, a.navbar__logo--link:visited {
+  color: white; }
+
+a.navbar__links--login:active, a.navbar__links--login:visited {
+  color: white; }
+
+a {
+  text-decoration: none; }
+
+ul {
+  list-style: none; }

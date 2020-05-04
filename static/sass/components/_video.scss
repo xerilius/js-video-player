@@ -1,15 +1,16 @@
 body {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    background: #252525;
+    
+    // background: #252525;
+    background: #1c1f22;
     min-height: 100vh;
     background-size: cover;
-    align-items: center;
-    justify-content: center;
+    // align-items: center;
+    // justify-content: center;
+    // display: flex;
 }
   
 .player {
+    margin: 0 auto;
     max-width: 750px;
     border: 5px solid rgba(0,0,0,0.2);
     box-shadow: 0 0 20px rgba(0,0,0,0.2);
@@ -29,7 +30,7 @@ body {
     width: 100%;
 }
   
-  .player__video {
+  .player__video {display: inline-block;
     width: 100%;
   }
   

@@ -1,0 +1,113 @@
+.navbar {
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    letter-spacing: .2rem;
+    text-transform: lowercase;
+    font-weight: bold;
+
+    min-height: 50px;
+    background-color: rgba(0, 0, 0, 0.267);
+    padding: 0 50rem;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;        
+    & nav { 
+        margin: 0 1.5rem;
+    }
+    
+    &__logo {
+        font-size: 2rem;
+        margin-right: auto; // makes logo float left
+ 
+        &--img {
+            height: 50px;
+            width: 50px;
+            vertical-align: middle;
+        }
+    }
+    
+    &__links {
+        list-style-type: none;
+        margin: 0;
+        font-size: 1.2rem;
+        
+        & li {
+            display: inline-block; // display list items side by side
+            padding: 0 .7rem;
+
+            & small {
+                vertical-align: super;
+                font-size: 1rem;
+                color: orange;
+                text-transform: uppercase;
+                font-family: 'Roboto Condensed', sans-serif;
+            }  
+            
+            & a {
+                color: white;
+                transition: all 0.3s ease 0s;
+                &:hover {
+                    color: orange;
+                }
+            }
+        }
+
+        // &--login {
+        //     font-family: 'Montserrat', sans-serif;
+        //     font-size: 1.2rem;
+        //     font-weight: bold;
+
+        //     display: inline-block;
+        //     position: relative; 
+        //     padding: 5px;
+            
+        //     &::before {
+        //         // content: "";
+        //         // position: absolute;
+        //         // width: 100%;
+        //         // height: 2px;
+        //         // bottom: 0;
+        //         // left: 0;
+        //         // background-color: black;
+        //         // transform-origin: bottom right;
+        //         // transform: scaleX(0);
+        //         // transition: transform 0.3s ease-out;
+        //         content: "";
+        //         position: absolute;
+        //         width: 100%;
+        //         height: 2px;
+        //         bottom: 0;
+        //         left: 0;
+        //         background-color: black;
+        //         visibility: hidden;
+        //         transform: scaleX(0);
+        //         transition: all 0.3s ease-in-out;
+        //     }
+
+        //     &:hover::before {
+        //         // transform-origin: bottom left;
+        //         // transform: scaleX(1);
+        //         visibility: visible;
+        //         transform: scaleX(1);
+        //     }
+        // }
+    }
+}
+
+
+a.navbar__logo--link {
+    &:active, &:visited {
+    color: white;
+    }
+}
+
+a.navbar__links--login {
+    &:active, &:visited {
+        color: white;
+        }
+    }
+
+a {text-decoration: none;}
+ul { list-style: none;}
