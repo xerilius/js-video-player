@@ -8,22 +8,25 @@
 
     min-height: 50px;
     background-color: rgba(0, 0, 0, 0.267);
-    padding: 0 50rem;
 
     display: flex;
-    justify-content: flex-end;
-    align-items: center;        
+    justify-content:center; 
+    align-items: center;
+
+    
     & nav { 
         margin: 0 1.5rem;
+        // margin-right: auto;    
     }
     
     &__logo {
-        font-size: 2rem;
-        margin-right: auto; // makes logo float left
+        font-size: 1.5rem;
+        // margin-right: auto; // makes logo float left
+        padding: 0 3rem; 
  
         &--img {
-            height: 50px;
-            width: 50px;
+            height: 30px;
+            width: 30px;
             vertical-align: middle;
         }
     }
@@ -31,7 +34,11 @@
     &__links {
         list-style-type: none;
         margin: 0;
-        font-size: 1.2rem;
+        font-size: 1rem;
+
+        &--mag{
+            color: orange;
+           }
         
         & li {
             display: inline-block; // display list items side by side
@@ -52,6 +59,24 @@
                     color: orange;
                 }
             }
+
+            & input { 
+                background-color:transparent;
+                border: 0;
+                color: orange;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 1.1rem;
+               
+                &:focus {
+                    outline: none;
+                }
+            }
+
+            & i {
+                color: white;
+                font-size: 1.5rem;
+            }
+           
         }
 
         // &--login {
@@ -99,7 +124,7 @@
 
 a.navbar__logo--link {
     &:active, &:visited {
-    color: white;
+    color: orange;
     }
 }
 
