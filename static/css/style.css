@@ -186,7 +186,7 @@ input[type=range]::-moz-range-thumb {
         border: 0;
         color: orange;
         font-family: 'Montserrat', sans-serif;
-        font-size: 1rem; }
+        font-size: 1.1rem; }
         .navbar__links li input:focus {
           outline: none; }
       .navbar__links li i {
@@ -203,3 +203,25 @@ a {
 
 ul {
   list-style: none; }
+
+.tooltip {
+  position: relative;
+  display: inline-block; }
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 5rem;
+  background-color: rgba(0, 0, 0, 0.411);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 3px 0;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-left: -25px; }
+
+.tooltip:hover .tooltiptext {
+  visibility: visible; }
