@@ -1,5 +1,4 @@
 body {
-    
     // background: #252525;
     background: #1c1f22;
     min-height: 100vh;
@@ -7,6 +6,11 @@ body {
     // align-items: center;
     // justify-content: center;
     // display: flex;
+}
+
+.episode-info {
+  display: flex;
+  justify-content: center;
 }
   
 .player {
@@ -86,14 +90,13 @@ body {
     height: 5px;
     transition: height 0.3s;
     background: rgba(0,0,0,0.5);
-
-}
   
-.progress__filled {
-    width: 50%;
-    background: #ffc600;
-    flex: 0;
-    flex-basis: 0%;
+    &__filled {
+      // width: 50%;
+      background: orange;
+      flex: 0;
+      flex-basis: 0%;
+  }
 }
   
   /* unholy css to style input type="range" */
@@ -123,7 +126,7 @@ body {
     height: 15px;
     width: 15px;
     border-radius: 50px;
-    background: #ffc600;
+    background:orange;
     cursor: pointer;
     -webkit-appearance: none;
     margin-top: -3.5px;
@@ -152,3 +155,4 @@ body {
     background: #ffc600;
     cursor: pointer;
   }
+

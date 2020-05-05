@@ -17,6 +17,10 @@ body {
   min-height: 100vh;
   background-size: cover; }
 
+.episode-info {
+  display: flex;
+  justify-content: center; }
+
 .player {
   margin: 0 auto;
   max-width: 750px;
@@ -84,12 +88,10 @@ body {
   height: 5px;
   transition: height 0.3s;
   background: rgba(0, 0, 0, 0.5); }
-
-.progress__filled {
-  width: 50%;
-  background: #ffc600;
-  flex: 0;
-  flex-basis: 0%; }
+  .progress__filled {
+    background: orange;
+    flex: 0;
+    flex-basis: 0%; }
 
 /* unholy css to style input type="range" */
 input[type=range] {
@@ -114,7 +116,7 @@ input[type=range]::-webkit-slider-thumb {
   height: 15px;
   width: 15px;
   border-radius: 50px;
-  background: #ffc600;
+  background: orange;
   cursor: pointer;
   -webkit-appearance: none;
   margin-top: -3.5px;
@@ -240,3 +242,6 @@ ul {
 
 .tooltip:hover .tooltiptext {
   visibility: visible; }
+
+.banner {
+  height: 10vh; }

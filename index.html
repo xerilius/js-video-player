@@ -9,7 +9,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"></link>
+    
     <link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap" rel="stylesheet">
+
     <!-- SCRIPT -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 </head>
@@ -21,8 +23,6 @@
                 <a class="navbar__logo--link" href="/">
                     Crunchyroll
                 </a>
-                
-   
             </div>
 
             <nav class="nav__media">
@@ -61,15 +61,17 @@
                             </a>
                         </div>
                     </li>
-                    <li><input class="searchbar" type="text" placeholder="「 アニメ・マンガ 」"> <i class="fas fa-search fa-2x"></i></li>
+                    <li><input class="searchbar" type="text" placeholder="「 アニメ・マンガ 」"> &nbsp; <i class="fas fa-search fa-2x"></i></li>
                 </ul>   
             </nav>  
         </div>
     </header>
 
+    <section class="banner"></section>
+
+    <section class="theatre">
     <div class="player">
         <video class="player__video" src="./static/img/manhattan.mp4"></video>
-
         <div class="player__controls">
             <!-- Progress Bar -->
             <div class="progress">
@@ -86,7 +88,10 @@
             <button data-skip="25" class="player__button">25s »</button>
         </div>
     </div>
-    
+    <div class="episode-info">
+        New York Manhattan 
+    </div>
+</section>
     <script src="./static/js/videoPlayer.js"></script>
 </body>
 </html>
