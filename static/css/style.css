@@ -189,6 +189,9 @@ input[type=range]::-moz-range-thumb {
         font-size: 1.1rem; }
         .navbar__links li input:focus {
           outline: none; }
+        .navbar__links li input::placeholder {
+          font-weight: bolder;
+          font-size: 1.3rem; }
       .navbar__links li i {
         color: white; }
 
