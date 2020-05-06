@@ -3,19 +3,45 @@ body {
     background: #1c1f22;
     min-height: 100vh;
     background-size: cover;
-    // align-items: center;
+  
     // justify-content: center;
     // display: flex;
 }
 
-.episode-info {
+.theatre {
   display: flex;
-  justify-content: center;
-}
+  flex-direction: column;
+  vertical-align: middle;
+  margin: 0 50px;
+  align-items: center;
   
-.player {
-    margin: 0 auto;
-    max-width: 750px;
+
+  .ep-info {  
+    color: white;
+    font-size: 1rem;   
+    font-family: 'Montserrat', sans-serif;
+    max-width: 1000px;
+    display: grid;
+    margin-left: -750px;
+  
+
+   
+    &__title {
+      font-size: 2rem;
+      font-weight: bolder;
+      color:white;
+      justify-items: flex-start;
+      & a {
+        color: orange;
+      }
+    }
+
+
+  }
+
+  .player {
+    margin: 50px auto;  // centers video
+    max-width: 1000px;
     border: 5px solid rgba(0,0,0,0.2);
     box-shadow: 0 0 20px rgba(0,0,0,0.2);
     position: relative;
@@ -155,4 +181,10 @@ body {
     background: #ffc600;
     cursor: pointer;
   }
+
+
+
+}
+
+  
 
