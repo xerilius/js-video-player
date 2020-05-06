@@ -8,6 +8,8 @@ body {
     // display: flex;
 }
 
+
+
 .theatre {
   position: relative;
   display: flex;
@@ -18,23 +20,40 @@ body {
   max-width: 1500px;
   z-index: 3;
 
-  .previous {
+.vid-nav {
+  z-index: 5;
+  .previous  {
+    opacity: 0;
     color: white;
     font-size: 5rem;
-
+    
     position: relative;
     top: 350px;
-    right: 600px;
+    right: 470px;
+    padding: 200px 100px 200px 300px;
 
+    &:hover {
+      opacity: 1;
+      right: 500px;
+      transition: right 1s ease-out;
+    }
   }
   .next {
     color: white;
     font-size: 5rem;
+    opacity: 0;
 
     position: relative;
     top: 350px;
-    left: 600px;
+    left: 470px;
+    padding: 200px 300px 200px 100px;
+    &:hover {
+      opacity: 1;
+      left: 500px;
+      transition: left 1s ease-out;
+    }
   }
+}
 
   .ep-info {  
     margin: 25px 0; // spacing between video and info
@@ -60,7 +79,7 @@ body {
       clear: right;
       display:inline;
   
-      font-size: 2rem;
+      font-size: 1.5rem;
       font-weight: bolder;
       color:white;
       
@@ -71,16 +90,13 @@ body {
   }
 
   .player {
-
     max-width: 1100px;
     z-index: 3;
     margin: 0 auto;  // centers video
     // border: 5px solid rgba(0,0,0,0.2);
     // box-shadow: 0 0 20px rgba(0,0,0,0.2);
     position: relative;
-    font-size: 0;
-    overflow: hidden;
-
+    overflow: hidden; //hides controls
 }
   
 /* This css is only applied when fullscreen is active. */
@@ -97,6 +113,9 @@ body {
   .player__video {
     display: inline-block;
     width: 100%;
+    position: relative;
+    
+    // overflow: hidden; //hides controls
   }
   
   .player__button {
@@ -121,11 +140,14 @@ body {
   }
   
   .player__controls {
+  
+    
+    overflow: hidden; //hides controls
     display: flex;
     position: absolute;
     bottom: 0;
     width: 100%;
-    transform: translateY(100%) translateY(-5px);
+    transform: translateY(120%) translateY(-5px);
     transition: all .3s;
     flex-wrap: wrap;
     background: rgba(0,0,0,0.1);

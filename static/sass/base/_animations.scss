@@ -1,0 +1,39 @@
+@keyframes slidePrev {
+    0% {
+        opacity: 0;
+        right: 460px
+    }
+    30% {
+        opacity: 0;
+        right: 500px;
+    }
+    75% {
+        opacity: 1;
+        right: 510px
+    }
+    /* end of animation */
+    100% {
+        opacity: 0;
+        right: 510px;
+    }
+}
+
+@keyframes slideNext {
+    0% {
+        opacity: 0;
+        right: 460px
+    }
+    30% {
+        opacity: 0;
+        right: 500px;
+    }
+    75% {
+        opacity: 1;
+        right: 510px
+    }
+    /* end of animation */
+    100% {
+        opacity: 0;
+        right: 510px;
+    }
+}
