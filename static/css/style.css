@@ -33,15 +33,16 @@ body {
     color: white;
     font-size: 5rem;
     position: relative;
-    top: 400px;
+    top: 350px;
     right: 600px; }
   .theatre .next {
     color: white;
     font-size: 5rem;
     position: relative;
-    top: 400px;
+    top: 350px;
     left: 600px; }
   .theatre .ep-info {
+    margin: 25px 0;
     max-width: 1100px;
     width: 100%;
     color: white;
@@ -66,7 +67,7 @@ body {
   .theatre .player {
     max-width: 1100px;
     z-index: 3;
-    margin: 50px auto;
+    margin: 0 auto;
     position: relative;
     font-size: 0;
     overflow: hidden; }

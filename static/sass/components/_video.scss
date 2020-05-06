@@ -23,7 +23,7 @@ body {
     font-size: 5rem;
 
     position: relative;
-    top: 400px;
+    top: 350px;
     right: 600px;
 
   }
@@ -32,11 +32,12 @@ body {
     font-size: 5rem;
 
     position: relative;
-    top:400px;
+    top: 350px;
     left: 600px;
   }
 
   .ep-info {  
+    margin: 25px 0; // spacing between video and info
     max-width: 1100px;
     width: 100%;
     color: white;
@@ -70,9 +71,10 @@ body {
   }
 
   .player {
+
     max-width: 1100px;
     z-index: 3;
-    margin: 50px auto;  // centers video
+    margin: 0 auto;  // centers video
     // border: 5px solid rgba(0,0,0,0.2);
     // box-shadow: 0 0 20px rgba(0,0,0,0.2);
     position: relative;
