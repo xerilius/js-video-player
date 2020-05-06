@@ -28,20 +28,21 @@ body {
       white-space:nowrap;
       float: left;
       margin: 0 25px;
+
       img {
-      height: 100px;
-      width: 100px;
+        height: 100px;
+        width: 100px;
       }
     }
    
     &__title {
       clear: right;
       display:inline;
-      float: right;
+  
       font-size: 2rem;
       font-weight: bolder;
       color:white;
-      justify-items: flex-start;
+      
       & a {
         color: orange;
       }

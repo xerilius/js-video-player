@@ -42,11 +42,9 @@ body {
     .theatre .ep-info__title {
       clear: right;
       display: inline;
-      float: right;
       font-size: 2rem;
       font-weight: bolder;
-      color: white;
-      justify-items: flex-start; }
+      color: white; }
       .theatre .ep-info__title a {
         color: orange; }
   .theatre .player {
