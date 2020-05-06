@@ -1,11 +1,10 @@
 .navbar {
-    margin: 0 auto;
     font-family: 'Montserrat', sans-serif;
-    font-size: 2rem;
     letter-spacing: .2rem;
     text-transform: lowercase;
     font-weight: bold;
 
+    margin: 0 auto;
     min-height: 50px;
     background-color: rgba(0, 0, 0, 0.267);
 
@@ -15,13 +14,15 @@
 
     
     & nav { 
-        margin: 0 1.5rem;
-        // margin-right: auto;  
-        font-size: 1rem;  
+        align-self: center;
+        vertical-align: middle;
+        margin: 0 2rem;
+        // margin-right: auto; 
+        font-size: 1.1rem;  
     }
     
     &__logo {
-        font-size: 1.5rem;
+        font-size: 2rem;
         // margin-right: auto; // makes logo float left
         padding: 0 3rem; 
  
@@ -35,7 +36,7 @@
     &__links {
         list-style-type: none;
         margin: 0;
-
+       
         &--mag{
             color: orange;
            }
@@ -46,7 +47,7 @@
 
             & small {
                 vertical-align: super;
-                font-size: 1rem;
+                font-size: .8rem;
                 color: orange;
                 text-transform: uppercase;
                 font-family: 'Roboto Condensed', sans-serif;
@@ -65,14 +66,15 @@
                 border: 0;
                 color: orange;
                 font-family: 'Montserrat', sans-serif;
-                font-size: 1.1rem;
+            
                 &:focus {
                     outline: none;
                 }
                 &::placeholder {
                     font-weight: bolder;
                     font-family: 'Kosugi Maru', sans-serif;
-                    font-size: 1.3rem;
+                    letter-spacing: .3rem;
+                   
                 }
             }
 
