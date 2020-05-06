@@ -21,12 +21,23 @@ body {
     font-size: 1.2frem;   
     font-family: 'Montserrat', sans-serif;
     max-width: 1000px;
-    display: grid;
-    margin-left: -750px;
+    
+    margin-left: -650px;
   
-
+    &__img {
+      white-space:nowrap;
+      float: left;
+      margin: 0 25px;
+      img {
+      height: 100px;
+      width: 100px;
+      }
+    }
    
     &__title {
+      clear: right;
+      display:inline;
+      float: right;
       font-size: 2rem;
       font-weight: bolder;
       color:white;
