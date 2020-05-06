@@ -21,8 +21,10 @@ body {
   display: flex;
   flex-direction: column;
   vertical-align: middle;
-  margin: 0 50px;
+  margin: 25px auto 20px;
   align-items: center;
+  overflow: hidden;
+  max-width: 1000px;
   /* This css is only applied when fullscreen is active. */
   /* unholy css to style input type="range" */ }
   .theatre .ep-info {
@@ -30,12 +32,11 @@ body {
     font-size: 1.2rem;
     line-height: 1.5;
     font-family: 'Montserrat', sans-serif;
-    max-width: 1000px;
-    margin-left: -650px; }
+    width: 100%; }
     .theatre .ep-info__img {
       white-space: nowrap;
       float: left;
-      margin: 0 25px; }
+      margin-right: 25px; }
       .theatre .ep-info__img img {
         height: 100px;
         width: 100px; }
@@ -49,7 +50,6 @@ body {
         color: orange; }
   .theatre .player {
     margin: 50px auto;
-    max-width: 1000px;
     border: 5px solid rgba(0, 0, 0, 0.2);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     position: relative;
