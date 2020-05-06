@@ -8,6 +8,7 @@
   right:1150px;
   transform: scaleX(0.5);
   filter:  blur(2.5px) contrast(90%);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.089);
 
 }
 .nxt-img {
@@ -19,6 +20,7 @@
   left: 1150px;
   transform: scaleX(0.5);
   filter:  blur(2.5px) contrast(90%);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.089);
 }
 
 .theatre {
@@ -111,7 +113,7 @@
     z-index: 3;
     margin: 0 auto;  // centers video
     // border: 5px solid rgba(0,0,0,0.2);
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.472);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.678);
     position: relative;
     overflow: hidden; //hides controls
 }
