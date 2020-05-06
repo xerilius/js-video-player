@@ -15,24 +15,39 @@ body {
 body {
   background: #1c1f22;
   min-height: 100vh;
-  background-size: cover; }
+  background-size: cover;
+  font-size: 1.2rem; }
 
 .theatre {
+  position: relative;
   display: flex;
   flex-direction: column;
-  vertical-align: middle;
-  margin: 25px auto 20px;
   align-items: center;
   overflow: hidden;
-  max-width: 1000px;
+  margin: 0 auto;
+  max-width: 1500px;
+  z-index: 3;
   /* This css is only applied when fullscreen is active. */
   /* unholy css to style input type="range" */ }
+  .theatre .previous {
+    color: white;
+    font-size: 5rem;
+    position: relative;
+    top: 400px;
+    right: 600px; }
+  .theatre .next {
+    color: white;
+    font-size: 5rem;
+    position: relative;
+    top: 400px;
+    left: 600px; }
   .theatre .ep-info {
+    max-width: 1100px;
+    width: 100%;
     color: white;
     font-size: 1.2rem;
     line-height: 1.5;
-    font-family: 'Montserrat', sans-serif;
-    width: 100%; }
+    font-family: 'Montserrat', sans-serif; }
     .theatre .ep-info__img {
       white-space: nowrap;
       float: left;
@@ -49,9 +64,9 @@ body {
       .theatre .ep-info__title a {
         color: orange; }
   .theatre .player {
+    max-width: 1100px;
+    z-index: 3;
     margin: 50px auto;
-    border: 5px solid rgba(0, 0, 0, 0.2);
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     position: relative;
     font-size: 0;
     overflow: hidden; }
@@ -250,4 +265,4 @@ ul {
   visibility: visible; }
 
 .banner {
-  height: 5vh; }
+  height: 0vh; }

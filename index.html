@@ -6,6 +6,7 @@
     <title>Crunchyroll</title>
     <!-- Stylesheets -->
     <link rel="stylesheet" href="./static/css/style.css">
+    <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"></link>
@@ -15,63 +16,82 @@
     <!-- SCRIPT -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 </head>
+
 <body>
-    <header>
-        <div class="navbar">
-            <div class="navbar__logo">
-                <img class="navbar__logo--img" src="./static/img/logo.png"></img> 
-                <a class="navbar__logo--link" href="/">
-                    Crunchyroll
-                </a>
-            </div>
+<header>
+<div class="navbar">
+    <div class="navbar__logo">
+        <img class="navbar__logo--img" src="./static/img/logo.png"></img> 
+        <a class="navbar__logo--link" href="/">
+            Crunchyroll
+        </a>
+    </div>
 
-            <nav class="nav__media">
-                <ul class="navbar__links">
-                    <li><a href="#">Shows</a></li>
-                    <li><a href="#">Manga</a></li>
-                    <li><a href="#">News</a></li>
-                    <li><a href="#">Store</a></li>
-                    <li><a href="#">Premium</a><small>Try Free</small></li>
-                <ul>
-            </nav>
+    <nav class="nav__media">
+        <ul class="navbar__links">
+            <li><a href="#">Shows</a></li>
+            <li><a href="#">Manga</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Store</a></li>
+            <li><a href="#">Premium</a><small>Try Free</small></li>
+        <ul>
+    </nav>
 
-            <nav class="nav__user">
-                <ul class="navbar__links">
-                    <li>
-                        <div class="tooltip">
-                            <a href="#">
-                            <i class="fas fa-user-astronaut fa-2x "></i>
-                            <span class="tooltiptext">Login</span>
-                            </a>
-                        </div>   
-                    </li>
-                    <li>
-                        <div class="tooltip">
-                            <a href="#">
-                            <i class="fas fa-bookmark fa-2x"></i>
-                            <span class="tooltiptext">Queue</span>
-                            </a>
-                       </div>
-                    </li>
-                    <li>
-                        <div class="tooltip">
-                            <a href="#">
-                            <i class="fas fa-dice-five fa-2x"></i>
-                            <span class="tooltiptext">Random</span>
-                            </a>
-                        </div>
-                    </li>
-                    <li><input class="searchbar" type="text" placeholder="「 アニメ・マンガ 」"> &nbsp; <i class="fas fa-search fa-2x"></i></li>
-                </ul>   
-            </nav>  
-        </div>
-    </header>
+    <nav class="nav__user">
+        <ul class="navbar__links">
+            <li>
+                <div class="tooltip">
+                    <a href="#">
+                    <i class="fas fa-user-astronaut fa-2x "></i>
+                    <span class="tooltiptext">Login</span>
+                    </a>
+                </div>   
+            </li>
+            <li>
+                <div class="tooltip">
+                    <a href="#">
+                    <i class="fas fa-bookmark fa-2x"></i>
+                    <span class="tooltiptext">Queue</span>
+                    </a>
+                </div>
+            </li>
+            <li>
+                <div class="tooltip">
+                    <a href="#">
+                    <i class="fas fa-dice-five fa-2x"></i>
+                    <span class="tooltiptext">Random</span>
+                    </a>
+                </div>
+            </li>
+            <li><input class="searchbar" type="text" placeholder="「 アニメ・マンガ 」"> &nbsp; <i class="fas fa-search fa-2x"></i></li>
+        </ul>   
+    </nav>  
+</div>
+</header>
 
-    <section class="banner"></section>
+<!-- <div class="banner"></div> -->
 
-    <section class="theatre">
+    
+<div class="theatre">
+    <div class="vid-nav">
+        <span class="previous">
+            <i class="fas fa-chevron-left"></i>
+            <a class="prev" href="#">
+            <!-- <img class="prev-img" src="./static/img/ny1.jpg"></img> -->
+            </a>
+        </span>
+    
+        <span class="next">
+            <a class="nxt" href="#">
+                <!-- <img class="nxt-img" src="./static/img/ny2.jpg"> -->
+            </a>   
+            <i class="fas fa-chevron-right"></i>  
+        </span>
+    </div>  
     <div class="player">
+
         <video class="player__video" src="./static/img/manhattan.mp4"></video>
+
         <div class="player__controls">
             <!-- Progress Bar -->
             <div class="progress">
@@ -87,7 +107,9 @@
             <button data-skip="-10" class="player__button">« 10s</button>
             <button data-skip="25" class="player__button">25s »</button>
         </div>
+      
     </div>
+
     <div class="ep-info">
         <div class="ep-info__img">
             <img src="./static/img/newyork.jpg" alt="new york">
@@ -102,12 +124,10 @@
             <span class="series__ongoing">(Ongoing)</span>
         </div>
         <div class="ep-info__season">Spring 2020</div>
-        
-        
-    
     </div>
+</div>
 
-</section>
+
     <script src="./static/js/videoPlayer.js"></script>
 </body>
 </html>

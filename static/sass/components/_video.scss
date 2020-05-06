@@ -3,28 +3,47 @@ body {
     background: #1c1f22;
     min-height: 100vh;
     background-size: cover;
-  
+    font-size: 1.2rem;
     // justify-content: center;
     // display: flex;
 }
 
 .theatre {
+  position: relative;
   display: flex;
-  flex-direction: column;
-  vertical-align: middle;
-  margin: 25px auto 20px;
+  flex-direction: column; // stack everything in column
   align-items: center;
   overflow: hidden;
-  max-width: 1000px; // aligns video and info
-  
+  margin: 0 auto; // center items
+  max-width: 1500px;
+  z-index: 3;
+
+  .previous {
+    color: white;
+    font-size: 5rem;
+
+    position: relative;
+    top: 400px;
+    right: 600px;
+
+  }
+  .next {
+    color: white;
+    font-size: 5rem;
+
+    position: relative;
+    top:400px;
+    left: 600px;
+  }
+
   .ep-info {  
+    max-width: 1100px;
+    width: 100%;
     color: white;
     font-size: 1.2rem;  
     line-height: 1.5; 
     font-family: 'Montserrat', sans-serif;
-    width: 100%;
-    
-  
+   
     &__img {
       white-space:nowrap;
       float: left;
@@ -48,18 +67,18 @@ body {
         color: orange;
       }
     }
-
-
   }
 
   .player {
+    max-width: 1100px;
+    z-index: 3;
     margin: 50px auto;  // centers video
-    // max-width: 1000px;
-    border: 5px solid rgba(0,0,0,0.2);
-    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    // border: 5px solid rgba(0,0,0,0.2);
+    // box-shadow: 0 0 20px rgba(0,0,0,0.2);
     position: relative;
     font-size: 0;
     overflow: hidden;
+
 }
   
 /* This css is only applied when fullscreen is active. */
@@ -73,7 +92,8 @@ body {
     width: 100%;
 }
   
-  .player__video {display: inline-block;
+  .player__video {
+    display: inline-block;
     width: 100%;
   }
   
@@ -194,10 +214,4 @@ body {
     background: #ffc600;
     cursor: pointer;
   }
-
-
-
 }
-
-  
-
