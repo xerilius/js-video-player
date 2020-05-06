@@ -6,6 +6,7 @@
   position:absolute;
   top: 120px;
   right:1150px;
+  transform: scaleX(0.5);
   filter:  blur(2.5px) contrast(90%);
 
 }
@@ -15,7 +16,8 @@
   max-width: 500px;
   position: absolute;
   top: 120px;
-  left: 1000px;
+  left: 1150px;
+  transform: scaleX(0.5);
   filter:  blur(2.5px) contrast(90%);
 }
 
