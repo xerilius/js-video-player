@@ -48,18 +48,20 @@ body {
 .prev-img {
   z-index: -1;
   height: 500px;
-  width: 500px;
+  max-width: 500px;
   position: absolute;
   top: 120px;
-  right: 1150px; }
+  right: 1150px;
+  filter: blur(2.5px) contrast(90%); }
 
 .nxt-img {
   z-index: -1;
   height: 500px;
-  width: 500px;
+  max-width: 500px;
   position: absolute;
   top: 120px;
-  left: 1000px; }
+  left: 1000px;
+  filter: blur(2.5px) contrast(90%); }
 
 .theatre {
   position: relative;
@@ -77,6 +79,7 @@ body {
     opacity: 0;
     color: white;
     font-size: 5rem;
+    text-shadow: 0 0 5px black;
     position: relative;
     top: 350px;
     right: 470px;
@@ -90,6 +93,7 @@ body {
     color: white;
     font-size: 5rem;
     opacity: 0;
+    text-shadow: 0 0 5px black;
     position: relative;
     top: 350px;
     left: 470px;
@@ -125,6 +129,7 @@ body {
     max-width: 1100px;
     z-index: 3;
     margin: 0 auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     position: relative;
     overflow: hidden; }
   .theatre .player:fullscreen {

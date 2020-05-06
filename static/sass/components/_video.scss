@@ -2,18 +2,21 @@
 .prev-img {
   z-index: -1;
   height: 500px;
-  width: 500px;
+  max-width: 500px;
   position:absolute;
   top: 120px;
   right:1150px;
+  filter:  blur(2.5px) contrast(90%);
+
 }
 .nxt-img {
   z-index: -1;
   height: 500px;
-  width: 500px;
+  max-width: 500px;
   position: absolute;
   top: 120px;
   left: 1000px;
+  filter:  blur(2.5px) contrast(90%);
 }
 
 .theatre {
@@ -32,6 +35,7 @@
     opacity: 0;
     color: white;
     font-size: 5rem;
+    text-shadow: 0 0 5px black;
     
     position: relative;
     top: 350px;
@@ -50,6 +54,7 @@
     color: white;
     font-size: 5rem;
     opacity: 0;
+    text-shadow: 0 0 5px black;
 
     position: relative;
     // top: 350px;
@@ -104,7 +109,7 @@
     z-index: 3;
     margin: 0 auto;  // centers video
     // border: 5px solid rgba(0,0,0,0.2);
-    // box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
     position: relative;
     overflow: hidden; //hides controls
 }
