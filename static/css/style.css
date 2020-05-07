@@ -47,20 +47,20 @@ body {
 
 .prev-img {
   z-index: -1;
-  height: 500px;
+  height: 400px;
   max-width: 500px;
   position: absolute;
-  top: 120px;
+  top: 140px;
   right: 1150px;
   filter: blur(2.5px) contrast(90%);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.089); }
 
 .nxt-img {
   z-index: -1;
-  height: 500px;
+  height: 400px;
   max-width: 500px;
   position: absolute;
-  top: 120px;
+  top: 140px;
   left: 1150px;
   filter: blur(2.5px) contrast(90%);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.089); }
@@ -83,13 +83,13 @@ body {
     font-size: 5rem;
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.37);
     position: relative;
-    top: 350px;
-    right: 470px;
+    top: 300px;
+    right: 410px;
     padding: 200px 100px 200px 300px; }
     .theatre .previous:hover {
       opacity: 1;
-      right: 500px;
-      transition: right 1s ease-out; }
+      right: 450px;
+      transition: right .7s ease-out; }
   .theatre .next {
     z-index: 5;
     color: white;
@@ -97,16 +97,16 @@ body {
     opacity: 0;
     text-shadow: 0 0 5px black;
     position: relative;
-    top: 350px;
-    left: 470px;
+    top: 300px;
+    left: 410px;
     padding: 200px 300px 200px 100px; }
     .theatre .next:hover {
       opacity: 1;
-      left: 500px;
-      transition: left 1s ease-out; }
+      left: 450px;
+      transition: left .7s ease-out; }
   .theatre .ep-info {
     margin: 25px 0;
-    max-width: 1100px;
+    max-width: 1000px;
     width: 100%;
     color: white;
     font-size: 1.2rem;
@@ -128,7 +128,7 @@ body {
       .theatre .ep-info__title a {
         color: orange; }
   .theatre .player {
-    max-width: 1100px;
+    max-width: 1000px;
     z-index: 3;
     margin: 0 auto;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.678);
