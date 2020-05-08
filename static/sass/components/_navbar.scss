@@ -37,8 +37,10 @@
         list-style-type: none;
         margin: 0;
        
-        .focused{
+        // magnifying glass
+        .focused { 
             color: orange;
+            transition: color .3s ease-in;
         }
         
         & li {

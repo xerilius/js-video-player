@@ -259,7 +259,8 @@ video {
     list-style-type: none;
     margin: 0; }
     .navbar__links .focused {
-      color: orange; }
+      color: orange;
+      transition: color .3s ease-in; }
     .navbar__links li {
       display: inline-block;
       padding: 0 .7rem; }
