@@ -45,6 +45,9 @@ body {
     opacity: 0;
     right: 510px; } }
 
+video {
+  background: black; }
+
 .prev-img {
   z-index: -1;
   height: 400px;
@@ -331,4 +334,4 @@ ul {
   visibility: visible; }
 
 .banner {
-  height: 0vh; }
+  height: 5vh; }
