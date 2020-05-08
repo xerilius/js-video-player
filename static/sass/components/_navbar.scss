@@ -37,9 +37,9 @@
         list-style-type: none;
         margin: 0;
        
-        &--mag{
+        .focused{
             color: orange;
-           }
+        }
         
         & li {
             display: inline-block; // display list items side by side

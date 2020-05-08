@@ -258,7 +258,7 @@ video {
   .navbar__links {
     list-style-type: none;
     margin: 0; }
-    .navbar__links--mag {
+    .navbar__links .focused {
       color: orange; }
     .navbar__links li {
       display: inline-block;
