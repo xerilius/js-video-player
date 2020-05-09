@@ -2,7 +2,7 @@
 
 @import "base/base";
 @import "base/animations";
-@import "base/typography.scss";
+@import "base/typography";
 @import "base/utilities";
 
 @import "components/video";
@@ -10,6 +10,6 @@
 @import "components/tooltip";
 @import "components/banner";
 
-@import "layouts/body";
+@import "layout/body";
 
-@import "pages/homepage";
+@import "pages/home";

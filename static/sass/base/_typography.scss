@@ -1,0 +1,56 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+}
+
+.navbar {
+    font-size: 1.1rem;  
+    letter-spacing: .2rem;
+    text-transform: lowercase;
+    font-weight: bold;
+    &__logo {
+        font-size: 2rem;
+        a.navbar__logo--link {
+            &:active, &:visited {
+                color: orange;
+            }
+        }
+    }
+    &__links {
+        .focused {
+            color: orange;
+        }
+        & li {
+            & small {
+                font-size: .8rem;
+                color: orange;
+                text-transform: uppercase;
+                font-family: 'Roboto Condensed', sans-serif;
+            }
+            & a {
+                color: white;
+                &:hover {
+                    color: orange;
+                }
+            }
+            & input {
+                color: orange;
+
+                &::placeholder {
+                    font-weight: bolder;
+                    font-family: 'Kosugi Maru', sans-serif;
+                    letter-spacing: .3rem;
+                }
+            }
+            & i {
+                color: white;
+            }
+        }
+    }
+}
+
+.vid-nav a{
+    font-size: 5rem;
+    color: white;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.37);
+}
