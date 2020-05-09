@@ -45,9 +45,6 @@ body {
     opacity: 0;
     right: 510px; } }
 
-video {
-  background: black; }
-
 .prev-img {
   z-index: -1;
   height: 400px;
