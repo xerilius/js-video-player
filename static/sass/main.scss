@@ -1,6 +1,15 @@
+@import "abstracts/variables";
+
 @import "base/base";
 @import "base/animations";
+@import "base/typography.scss";
+@import "base/utilities";
+
 @import "components/video";
 @import "components/navbar";
 @import "components/tooltip";
 @import "components/banner";
+
+@import "layouts/body";
+
+@import "pages/homepage";
