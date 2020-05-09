@@ -3,9 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <!-- Stylesheets -->
+     <link rel="stylesheet" href="./static/css/style.css">
+     <!-- Fonts -->
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"></link>
+     
+     <link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap" rel="stylesheet">
+ 
+     <!-- SCRIPT -->
+     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+     
     <title>Crunchyroll Homepage</title>
 </head>
 <body>
-    
+<div class="navbar">
+    <div class="navbar__logo">
+        <img class="navbar__logo--img" src="./static/img/logo.png"></img> 
+        <a class="navbar__logo--link" href="index.html">
+        Crunchyroll 
+        </a>
+    </div>  
+    <nav class="nav__media">
+        <ul class="navbar__links">
+            <li><a href="shows.html">Shows</a></li>
+            <li><a href="#">Manga</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Store</a></li>
+            <li><a href="#">Premium</a><small>Try Free</small></li>
+        <ul>
+    </nav>
+
+    <nav class="nav__user">
+        <ul class="navbar__links">
+            <li>
+                <div class="tooltip">
+                    <a href="#">
+                    <i class="fas fa-user-astronaut fa-2x "></i>
+                    <span class="tooltiptext">Login</span>
+                    </a>
+                </div>   
+            </li>
+            <li>
+                <div class="tooltip">
+                    <a href="#">
+                    <i class="fas fa-bookmark fa-2x"></i>
+                    <span class="tooltiptext">Queue</span>
+                    </a>
+                </div>
+            </li>
+            <li>
+                <div class="tooltip">
+                    <a href="#">
+                    <i class="fas fa-dice-five fa-2x"></i>
+                    <span class="tooltiptext">Random</span>
+                    </a>
+                </div>
+            </li>
+            <li><input class="searchbar" type="text" placeholder="「 アニメ・マンガ 」"> &nbsp; <i class="mag fas fa-search fa-2x "></i></li>
+        </ul>   
+    </nav>  
+</div>
+</header>
+
+<div class="banner"></div>
+
+<div class="main">
+
+</div>
+
 </body>
 </html>
