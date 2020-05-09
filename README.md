@@ -1,6 +1,6 @@
 <h1 align="center">Crunchyroll Simplified Dark Theme</h1>
 <h3 align="center"> 
-<a href="https://xerilius.github.io/crunchyroll-darkmode/">「 L I V E &nbsp; D E M O 」</a>
+<a href="https://xerilius.github.io/crunchyroll-darkmode/shows.html">「 L I V E &nbsp; D E M O 」</a>
 </h3>
 
 
