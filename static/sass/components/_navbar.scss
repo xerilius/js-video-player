@@ -2,6 +2,7 @@
     margin: 0 auto;
     min-height: 50px;
     background-color: rgba(0, 0, 0, 0.145);
+    // text-transform: capitalize;
 
     display: flex;
     justify-content:center; 
@@ -17,6 +18,8 @@
     &__logo {
         // margin-right: auto; // makes logo float left
         padding: 0 3rem; 
+        text-transform: lowercase;
+      
  
         &--img {
             height: 30px;

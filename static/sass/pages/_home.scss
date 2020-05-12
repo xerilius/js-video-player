@@ -1,0 +1,21 @@
+.main {
+    text-transform: uppercase;
+    line-height: 3.5rem;
+    display: flex;
+    justify-content: center;
+
+    &__content {      
+        margin: 50px 50px;
+        padding-right: 50px;
+        width: 60%;
+        float: left;
+        border-right: white 1.5px solid;
+    }
+
+    &__side-nav {
+
+        margin: 50px 50px 50px 0;
+        float: right;
+    
+    }
+}
