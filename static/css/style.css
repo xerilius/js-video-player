@@ -76,7 +76,8 @@ a {
   font-size: 1.1rem;
   letter-spacing: .2rem;
   text-transform: lowercase;
-  font-weight: bold; }
+  font-weight: bold;
+  text-transform: lowercase; }
   .navbar__logo {
     font-size: 2rem; }
     .navbar__logo a.navbar__logo--link:active, .navbar__logo a.navbar__logo--link:visited {
@@ -302,8 +303,7 @@ a {
     vertical-align: middle;
     margin: 0 2rem; }
   .navbar__logo {
-    padding: 0 3rem;
-    text-transform: lowercase; }
+    padding: 0 3rem; }
     .navbar__logo--img {
       height: 30px;
       width: 30px;
