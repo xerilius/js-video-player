@@ -358,7 +358,14 @@ ul {
   text-transform: uppercase;
   line-height: 3.5rem;
   display: flex;
-  justify-content: center; }
+  flex-direction: column; }
+  .main .img-accordian {
+    margin: 50px 50px; }
+    .main .img-accordian__item--1 {
+      height: auto;
+      width: 100%; }
+  .main__body {
+    flex-direction: row; }
   .main__content {
     margin: 50px 50px;
     padding-right: 50px;
