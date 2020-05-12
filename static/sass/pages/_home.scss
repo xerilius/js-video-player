@@ -2,10 +2,24 @@
     line-height: 3.5rem;
     display: flex;
     flex-direction: column;
-    // background: whitesmoke;
+    background: #0c0c0c2c;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.788);
+    border: rgba(0, 0, 0, 0.157) 2px double;
+    border-radius: 10px;
+
+    &:hover {
+        box-shadow: 0 0 20px orange;
+        border: rgb(255, 174, 0) 2px double;
+        border-radius: 10px;
+        transition: all .5s ease-in .5s;
+        transform: scale(1.009);
+    }
+
 
     .img-accordian{
-        margin: 25px 50px;
+        margin: 50px 50px 0 50px;
+
         &__item--1 {
             height: auto;
             width:  100%;
