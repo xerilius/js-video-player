@@ -34,7 +34,7 @@
        
         // magnifying glass
         .focused { 
-            transition: color .3s ease-in;
+            transition: all 0.3s ease 0s;
         }
         
         & li {

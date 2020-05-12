@@ -52,10 +52,25 @@ body {
 
 a {
   color: white; }
+  a:hover {
+    color: orange;
+    transition: all 0.3s ease 0s; }
 
-h1, h2, h3 {
-  letter-spacing: .25rem;
-  font-family: 'Roboto', sans-serif; }
+.heading-1 {
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-size: 3rem;
+  font-weight: 600; }
+
+.heading-2 {
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 600; }
+
+.heading-3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem; }
 
 .navbar {
   font-size: 1.1rem;
@@ -93,6 +108,9 @@ h1, h2, h3 {
 
 .u-text-bold {
   font-weight: bold; }
+
+.u-line-bottom {
+  border-bottom: white 1.5px solid; }
 
 .prev-img {
   z-index: -1;
@@ -294,7 +312,7 @@ h1, h2, h3 {
     list-style-type: none;
     margin: 0; }
     .navbar__links .focused {
-      transition: color .3s ease-in; }
+      transition: all 0.3s ease 0s; }
     .navbar__links li {
       display: inline-block;
       padding: 0 .7rem; }
@@ -347,31 +365,39 @@ ul {
 .tooltip:hover .tooltiptext {
   visibility: visible; }
 
-.ad-banner {
-  height: 5vh; }
+.banner {
+  height: 25px; }
 
 .main {
   margin: 0 auto;
   max-width: 1000px; }
 
 .main {
-  text-transform: uppercase;
   line-height: 3.5rem;
   display: flex;
   flex-direction: column; }
   .main .img-accordian {
-    margin: 50px 50px; }
+    margin: 25px 50px; }
     .main .img-accordian__item--1 {
       height: auto;
       width: 100%; }
   .main__body {
+    display: flex;
     flex-direction: row; }
   .main__content {
-    margin: 50px 50px;
+    margin: 25px 50px;
     padding-right: 50px;
     width: 60%;
-    float: left;
     border-right: white 1.5px solid; }
+    .main__content-news--item {
+      display: flex;
+      margin: 20px  0; }
+    .main__content-news--img {
+      height: 160px;
+      width: 160px; }
+    .main__content-news--details {
+      padding: 0 20px;
+      float: left; }
   .main__side-nav {
-    margin: 50px 50px 50px 0;
-    float: right; }
+    margin: 25px 50px 50px 0;
+    justify-content: flex-end; }

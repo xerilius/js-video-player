@@ -1,35 +1,49 @@
 .main {
-    text-transform: uppercase;
     line-height: 3.5rem;
     display: flex;
     flex-direction: column;
+    // background: whitesmoke;
 
     .img-accordian{
-        margin: 50px 50px;
+        margin: 25px 50px;
         &__item--1 {
-            height:auto;
+            height: auto;
             width:  100%;
         }
     }
 
     &__body {
+        display: flex;
         flex-direction: row;
     }   
     
-
-    &__content {   
-       
-        margin: 50px 50px;
+    &__content {         
+        margin: 25px 50px;
         padding-right: 50px;
         width: 60%;
-        float: left;
         border-right: white 1.5px solid;
 
+        &-news{
+            &--item {
+                display:flex; // to align text next to image
+                margin: 20px  0;
+            }
+
+            &--img {
+                height: 160px;
+                width: 160px;
+                }
+
+            &--details {
+                padding: 0 20px;
+                float: left;
+            }
+        }
     }
 
     &__side-nav {
-        margin: 50px 50px 50px 0;
-        float: right;
+        margin: 25px 50px 50px 0;
+        justify-content: flex-end;
     }
    
 }

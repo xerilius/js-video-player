@@ -20,70 +20,110 @@
     <title>Crunchyroll Homepage</title>
 </head>
 <body>
-<div class="navbar">
-    <div class="navbar__logo">
-        <img class="navbar__logo--img" src="./static/img/logo.png"></img> 
-        <a class="navbar__logo--link" href="index.html">
-        Crunchyroll 
-        </a>
-    </div>  
-    <nav class="nav__media">
-        <ul class="navbar__links">
-            <li><a href="shows.html">Shows</a></li>
-            <li><a href="#">Manga</a></li>
-            <li><a href="#">News</a></li>
-            <li><a href="#">Store</a></li>
-            <li><a href="#">Premium</a><small>Try Free</small></li>
-        <ul>
-    </nav>
-
-    <nav class="nav__user">
-        <ul class="navbar__links">
-            <li>
-                <div class="tooltip">
-                    <a href="#">
-                    <i class="fas fa-user-astronaut fa-2x "></i>
-                    <span class="tooltiptext">Login</span>
-                    </a>
-                </div>   
-            </li>
-            <li>
-                <div class="tooltip">
-                    <a href="#">
-                    <i class="fas fa-bookmark fa-2x"></i>
-                    <span class="tooltiptext">Queue</span>
-                    </a>
-                </div>
-            </li>
-            <li>
-                <div class="tooltip">
-                    <a href="#">
-                    <i class="fas fa-dice-five fa-2x"></i>
-                    <span class="tooltiptext">Random</span>
-                    </a>
-                </div>
-            </li>
-            <li><input class="searchbar" type="text" placeholder="「 アニメ・マンガ 」"> &nbsp; <i class="mag fas fa-search fa-2x "></i></li>
-        </ul>   
-    </nav>  
-</div>
-</header>
-
-<div class="ad-banner"></div>
-
+    <header>
+        <div class="navbar">
+            <div class="navbar__logo">
+                <img class="navbar__logo--img" src="./static/img/logo.png"></img> 
+                <a class="navbar__logo--link" href="index.html">
+                Crunchyroll 
+                </a>
+            </div>
+        
+            <nav class="nav__media">
+                <ul class="navbar__links">
+                    <li><a href="shows.html">Shows</a></li>
+                    <li><a href="#">Manga</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Store</a></li>
+                    <li><a href="#">Premium</a><small>Try Free</small></li>
+                <ul>
+            </nav>
+        
+            <nav class="nav__user">
+                <ul class="navbar__links">
+                    <li>
+                        <div class="tooltip">
+                            <a href="#">
+                            <i class="fas fa-user-astronaut fa-2x "></i>
+                            <span class="tooltiptext">Login</span>
+                            </a>
+                        </div>   
+                    </li>
+                    <li>
+                        <div class="tooltip">
+                            <a href="#">
+                            <i class="fas fa-bookmark fa-2x"></i>
+                            <span class="tooltiptext">Queue</span>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="tooltip">
+                            <a href="#">
+                            <i class="fas fa-dice-five fa-2x"></i>
+                            <span class="tooltiptext">Random</span>
+                            </a>
+                        </div>
+                    </li>
+                    <li><input class="searchbar" type="text" placeholder="「 アニメ・マンガ 」"> &nbsp; <i class="mag fas fa-search fa-2x "></i></li>
+                </ul>   
+            </nav>  
+        </div>
+        </header>
+        
+<div class="banner"></div>
 <div class="main">
     
     <div class="img-accordian">
-   
             <img class="img-accordian__item--1" src="./static/img/banner-1.png">
     </div>
 
 <div class="main__body">
     <div class="main__content">
-        <h1>Latest News</h1>
-        <h1>Crunchyroll News</h1>
-        <h1>Spring 2020 Anime</h1>
-        <h1>Recently Added Anime</h1>
+        <div class="main__content-news">
+            <div class="main__content-news--header heading-1 u-line-bottom">Latest News</div>
+
+            <div class="main__content-news--item heading-3">
+                <a href="#"><img class="main__content-news--img" src="./static/img/news-1.jpg"></a>
+                <div class="main__content-news--details">
+                <a href="#">Here's a List of All the Anime Impacted by COVID-19 (Updated)</a> 
+                </div>
+            </div>
+              
+
+            <div class="main__content-news--item heading-3">
+                <a href="#"><img class="main__content-news--img"src="./static/img/news-2.jpg"></a>
+                <div class="main__content-news--details"><a href="#">World's End Harem Raunchy Manga To Get Anime Adaptation in 2021</a></div> 
+            </div>
+
+            <div class="main__content-news--item heading-3">
+                <a href="#"><img class="main__content-news--img"src="./static/img/news-3.png"></a>
+                <div class="main__content-news--details">
+                <a href="#">Licensing of the Monsters: How Pokémon Ignited An Anime Arms Race</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="main__content-news">
+            <div class="main__content-news--header heading-1 u-line-bottom">Crunchyroll News</div>
+            <div class="main__content-news--item heading-3">
+                <a href="#"></a>
+            </div>
+        </div>
+
+        <div class="main__content-3">
+            <div class="main__content-3 heading-1 u-line-bottom">Spring 2020 Anime</div>
+            <div class="main__content-3--item heading-3">
+                <a href="#"></a>
+            </div>
+        </div>
+
+        <div class="main__content-4">
+            <div class="main__content-4 heading-1 u-line-bottom">Recently Added Anime</div>
+            <div class="main__content-4--item heading-3">
+                <a href="#"></a>
+            </div>
+        </div>
     </div>
 
     <div class="main__side-nav">
@@ -153,7 +193,7 @@
 
         </div>
     </div>
-    
+
     </div>
 
     
