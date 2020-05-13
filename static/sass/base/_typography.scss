@@ -17,6 +17,10 @@ a {
     font-family: 'Roboto', sans-serif;
     font-size: 3rem;
     font-weight: 600;
+
+    color: black;
+    border-bottom: black 2px solid;
+    transition: all .5s ease-in .5s;
 }
 .heading-2 {
     text-transform: uppercase;

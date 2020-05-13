@@ -10,10 +10,11 @@
     border: rgba(0, 0, 0, 0.157) 2px double;
     border-radius: 10px;
     color: black;
-    
+   
     & a {
         color: black;
         transition: all .5s ease-in .5s;
+        font-weight: bold;
         &:hover {
             color: orange;
             transition: color .1s linear;
@@ -32,25 +33,27 @@
     &__body {
         display: flex;
         flex-direction: row;
+   
     }   
-    
-    &__content {         
-        margin: 25px 50px;
-        padding-right: 50px;
-        width: 60%;
-        // border-right: white 1.5px solid;
 
+    &__content { 
+        margin: 0 50px;        
+        width: 60.3%;
+
+        & > div {
+            margin: 50px 0;
+        }
 
         &-news{
-            &--header {
-                color: black;
-                border-bottom: black 1.5px solid;
-                transition: all .5s ease-in .5s;
-            }
-
             &--item {
+                transition: all ease-in 1s;
+                background-color: rgba(255, 255, 255, 0.904);
+                box-shadow: 0 0 5px rgba(0, 0, 0, 0.205);
+                border-radius: 5px;
+                padding: 15px 15px;
+
                 display:flex; // to align text next to image
-                margin: 20px  0;
+                margin: 20px 0;
             }
 
             &--img {
@@ -63,12 +66,49 @@
                 float: left;
             }
         }
+
+        &-shows--grp {   
+            margin: 20px  0;      
+            display:flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+
+            .main__content-shows--item {
+                transition: all ease-in 1s;
+
+                color: black;
+                background-color: rgba(255, 255, 255, 0.904);
+                box-shadow: 0 0 5px rgba(0, 0, 0, 0.205);
+                border-radius: 5px;
+
+                padding: 20px 20px;
+                margin: 0 20px 20px 0;
+
+                .show-img {
+                    height: 240px;
+                    width: 160px;
+                }
+                .show-details {
+                    text-align: center;
+                }
+                
+            }
+        }
+    
     }
 
-    &__side-nav { 
-        margin: 25px 50px 50px 0;
-        justify-content: flex-end;
 
+
+
+
+    &__side-nav { 
+        margin: 0 50px 50px 0;
+        justify-content: flex-end;
+        
+        & > div {
+            margin-top: 50px;
+        }
+        
         .shows__header {
             color: black;
             transition: color .5s ease-in .5s;
@@ -78,5 +118,5 @@
 
         }
     }
-   
+
 }

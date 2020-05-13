@@ -60,7 +60,10 @@ a {
   text-transform: uppercase;
   font-family: 'Roboto', sans-serif;
   font-size: 3rem;
-  font-weight: 600; }
+  font-weight: 600;
+  color: black;
+  border-bottom: black 2px solid;
+  transition: all .5s ease-in .5s; }
 
 .heading-2 {
   text-transform: uppercase;
@@ -109,6 +112,15 @@ a {
 
 .u-text-bold {
   font-weight: bold; }
+
+.u-margin-50 {
+  margin: 50px; }
+
+.u-line-ht-s {
+  line-height: 20px; }
+
+.u-line-ht-l {
+  line-height: 50px; }
 
 .prev-img {
   z-index: -1;
@@ -298,7 +310,7 @@ a {
   .navbar nav {
     align-self: center;
     vertical-align: middle;
-    margin: 0 2rem; }
+    margin: 0 1.5rem; }
   .navbar__logo {
     padding: 0 3rem; }
     .navbar__logo--img {
@@ -307,12 +319,13 @@ a {
       vertical-align: middle; }
   .navbar__links {
     list-style-type: none;
-    margin: 0; }
+    margin: 0;
+    padding: 0 3rem; }
     .navbar__links .focused {
       transition: all 0.3s ease 0s; }
     .navbar__links li {
       display: inline-block;
-      padding: 0 .7rem; }
+      padding: 0 1rem; }
       .navbar__links li small {
         vertical-align: super; }
       .navbar__links li a {
@@ -367,7 +380,7 @@ ul {
 
 .main {
   margin: 0 auto;
-  max-width: 1000px; }
+  max-width: 1100px; }
   .main:hover {
     box-shadow: 0 0 20px orange;
     border: #ffae00 2px double;
@@ -379,13 +392,21 @@ ul {
     .main:hover a {
       color: white;
       transition: all .2s ease-in .2s; }
-    .main:hover .main__content-news--header {
-      color: white;
-      border-bottom: white 1.5px solid;
-      transition: all .2s ease-in .2s; }
     .main:hover .shows__header, .main:hover .main__side-nav {
       color: white;
       transition: all .2s ease-in .2s; }
+    .main:hover .heading-1 {
+      color: white;
+      border-bottom: white 1.5px solid;
+      transition: all .2s ease-in .2s; }
+    .main:hover .main__content-news--item {
+      background-color: rgba(0, 0, 0, 0.13);
+      transition: all .2s ease-in .2s; }
+    .main:hover .main__content-shows--item {
+      background-color: rgba(0, 0, 0, 0.13);
+      transition: all .2s ease-in .2s; }
+      .main:hover .main__content-shows--item .show-details {
+        color: white; }
 
 .main {
   line-height: 3.5rem;
@@ -399,7 +420,8 @@ ul {
   color: black; }
   .main a {
     color: black;
-    transition: all .5s ease-in .5s; }
+    transition: all .5s ease-in .5s;
+    font-weight: bold; }
     .main a:hover {
       color: orange;
       transition: color .1s linear; }
@@ -412,25 +434,47 @@ ul {
     display: flex;
     flex-direction: row; }
   .main__content {
-    margin: 25px 50px;
-    padding-right: 50px;
-    width: 60%; }
-    .main__content-news--header {
-      color: black;
-      border-bottom: black 1.5px solid;
-      transition: all .5s ease-in .5s; }
+    margin: 0 50px;
+    width: 60.3%; }
+    .main__content > div {
+      margin: 50px 0; }
     .main__content-news--item {
+      transition: all ease-in 1s;
+      background-color: rgba(255, 255, 255, 0.904);
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.205);
+      border-radius: 5px;
+      padding: 15px 15px;
       display: flex;
-      margin: 20px  0; }
+      margin: 20px 0; }
     .main__content-news--img {
       height: 160px;
       width: 160px; }
     .main__content-news--details {
       padding: 0 20px;
       float: left; }
+    .main__content-shows--grp {
+      margin: 20px  0;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap; }
+      .main__content-shows--grp .main__content-shows--item {
+        transition: all ease-in 1s;
+        color: black;
+        background-color: rgba(255, 255, 255, 0.904);
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.205);
+        border-radius: 5px;
+        padding: 20px 20px;
+        margin: 0 20px 20px 0; }
+        .main__content-shows--grp .main__content-shows--item .show-img {
+          height: 240px;
+          width: 160px; }
+        .main__content-shows--grp .main__content-shows--item .show-details {
+          text-align: center; }
   .main__side-nav {
-    margin: 25px 50px 50px 0;
+    margin: 0 50px 50px 0;
     justify-content: flex-end; }
+    .main__side-nav > div {
+      margin-top: 50px; }
     .main__side-nav .shows__header {
       color: black;
       transition: color .5s ease-in .5s;

@@ -25,7 +25,7 @@
     & nav { 
         align-self: center;
         vertical-align: middle;
-        margin: 0 2rem;
+        margin: 0 1.5rem;
         // margin-right: auto; 
     }
     
@@ -43,6 +43,7 @@
     &__links {
         list-style-type: none;
         margin: 0;
+        padding: 0 3rem;
        
         // magnifying glass
         .focused { 
@@ -51,7 +52,7 @@
         
         & li {
             display: inline-block; // display list items side by side
-            padding: 0 .7rem;
+            padding: 0 1rem;
 
             & small {
                 vertical-align: super;
