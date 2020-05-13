@@ -59,6 +59,8 @@
             &--img {
                 height: 160px;
                 width: 160px;
+                border-radius: 5px;
+                box-shadow: 0 0 5px rgba(0, 0, 0, 0.205);
                 }
 
             &--details {
@@ -87,6 +89,8 @@
                 .show-img {
                     height: 240px;
                     width: 160px;
+                    border-radius: 5px;
+                    box-shadow: 0 0 5px rgba(0, 0, 0, 0.205);
                 }
                 .show-details {
                     text-align: center;
