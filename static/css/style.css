@@ -406,7 +406,8 @@ ul {
       background-color: rgba(0, 0, 0, 0.13);
       transition: all .2s ease-in .2s; }
       .main:hover .main__content-shows--item .show-details {
-        color: white; }
+        color: white;
+        transition: all .2s ease-in .2s; }
 
 .main {
   line-height: 3.5rem;
@@ -461,7 +462,6 @@ ul {
       flex-wrap: wrap; }
       .main__content-shows--grp .main__content-shows--item {
         transition: all ease-in 1s;
-        color: black;
         background-color: rgba(255, 255, 255, 0.904);
         box-shadow: 0 0 5px rgba(0, 0, 0, 0.205);
         border-radius: 5px;
@@ -473,7 +473,9 @@ ul {
           border-radius: 5px;
           box-shadow: 0 0 5px rgba(0, 0, 0, 0.205); }
         .main__content-shows--grp .main__content-shows--item .show-details {
-          text-align: center; }
+          text-align: center;
+          color: black;
+          transition: color ease-in 1s; }
   .main__side-nav {
     margin: 0 50px 50px 0;
     justify-content: flex-end; }

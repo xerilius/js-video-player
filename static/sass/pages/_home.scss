@@ -77,8 +77,6 @@
 
             .main__content-shows--item {
                 transition: all ease-in 1s;
-
-                color: black;
                 background-color: rgba(255, 255, 255, 0.904);
                 box-shadow: 0 0 5px rgba(0, 0, 0, 0.205);
                 border-radius: 5px;
@@ -94,6 +92,8 @@
                 }
                 .show-details {
                     text-align: center;
+                    color: black;
+                    transition: color ease-in 1s;
                 }
                 
             }
