@@ -15,35 +15,14 @@ body {
   max-height: 100vh;
   background-size: cover; }
 
-@keyframes slidePrev {
+@keyframes glow {
   0% {
-    opacity: 0;
-    right: 460px; }
-  30% {
-    opacity: 0;
-    right: 500px; }
-  75% {
-    opacity: 1;
-    right: 510px; }
-  /* end of animation */
+    box-shadow: 0 0 5px #020202, 0 0 50px #ffb922, 0 0 20px rgba(255, 255, 254, 0.808), 0 0 30px orange; }
+  50% {
+    border: rgba(0, 0, 0, 0.116) 2px double;
+    box-shadow: 0 0 20px rgba(2, 2, 2, 0.534); }
   100% {
-    opacity: 0;
-    right: 510px; } }
-
-@keyframes slideNext {
-  0% {
-    opacity: 0;
-    right: 460px; }
-  30% {
-    opacity: 0;
-    right: 500px; }
-  75% {
-    opacity: 1;
-    right: 510px; }
-  /* end of animation */
-  100% {
-    opacity: 0;
-    right: 510px; } }
+    box-shadow: 0 0 5px #020202, 0 0 50px #ffb922, 0 0 20px rgba(255, 255, 254, 0.808), 0 0 30px orange; } }
 
 body {
   font-family: 'Montserrat', sans-serif;
@@ -388,7 +367,8 @@ ul {
     transition: all .2s ease-in .2s;
     transform: scale(1.009);
     background: #0c0c0c2c;
-    color: white; }
+    color: white;
+    animation: glow 8s infinite; }
     .main:hover a {
       color: white;
       transition: all .2s ease-in .2s; }

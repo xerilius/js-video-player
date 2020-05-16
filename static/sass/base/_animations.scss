@@ -1,39 +1,22 @@
-@keyframes slidePrev {
+@keyframes glow{
     0% {
-        opacity: 0;
-        right: 460px
+        box-shadow: 
+        0 0 5px rgb(2, 2, 2),
+        0 0 50px rgb(255, 185, 34),
+        0 0 20px rgba(255, 255, 254, 0.808),
+        0 0 30px orange;
     }
-    30% {
-        opacity: 0;
-        right: 500px;
-    }
-    75% {
-        opacity: 1;
-        right: 510px
-    }
-    /* end of animation */
-    100% {
-        opacity: 0;
-        right: 510px;
-    }
-}
 
-@keyframes slideNext {
-    0% {
-        opacity: 0;
-        right: 460px
-    }
-    30% {
-        opacity: 0;
-        right: 500px;
-    }
-    75% {
-        opacity: 1;
-        right: 510px
-    }
-    /* end of animation */
+    50% {
+        border: rgba(0, 0, 0, 0.116) 2px double;
+        box-shadow: 0 0 20px rgba(2, 2, 2, 0.534);
+    }  
+
     100% {
-        opacity: 0;
-        right: 510px;
-    }
-}
+        box-shadow: 
+        0 0 5px rgb(2, 2, 2),
+        0 0 50px rgb(255, 185, 34),
+        0 0 20px rgba(255, 255, 254, 0.808),
+        0 0 30px orange;
+        }
+  }
