@@ -1,5 +1,6 @@
 .img-accordian{
     margin: 50px 50px 0 50px;
+    
     .gallery {
         display: flex;
         flex-direction: row;
@@ -23,8 +24,10 @@
     }   
 } 
 
-.gallery-container {
+.wrap-effect {
     .gallery-item {
+        border-radius: 5px;
+
         &:first-of-type {
             background-position: 75% 75%;
             background-image: 

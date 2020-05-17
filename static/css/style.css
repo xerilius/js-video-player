@@ -374,25 +374,23 @@ ul {
         flex: 85%;
         background-position: center; }
 
-.gallery-container .gallery-item:first-of-type {
-  background-position: 75% 75%;
-  background-image: url(../img/banner-1.png); }
-
-.gallery-container .gallery-item:nth-of-type(2) {
-  background-position: 80% 75%;
-  background-image: url(../img/banner-2.png); }
-
-.gallery-container .gallery-item:nth-of-type(3) {
-  background-position: 85% 55%;
-  background-image: url(../img/banner-4.png); }
-
-.gallery-container .gallery-item:nth-of-type(4) {
-  background-position: 80% 70%;
-  background-image: url(../img/banner-3.png); }
-
-.gallery-container .gallery-item:nth-of-type(5) {
-  background-position: 10% 50%;
-  background-image: url(../img/banner-5.png); }
+.wrap-effect .gallery-item {
+  border-radius: 5px; }
+  .wrap-effect .gallery-item:first-of-type {
+    background-position: 75% 75%;
+    background-image: url(../img/banner-1.png); }
+  .wrap-effect .gallery-item:nth-of-type(2) {
+    background-position: 80% 75%;
+    background-image: url(../img/banner-2.png); }
+  .wrap-effect .gallery-item:nth-of-type(3) {
+    background-position: 85% 55%;
+    background-image: url(../img/banner-4.png); }
+  .wrap-effect .gallery-item:nth-of-type(4) {
+    background-position: 80% 70%;
+    background-image: url(../img/banner-3.png); }
+  .wrap-effect .gallery-item:nth-of-type(5) {
+    background-position: 10% 50%;
+    background-image: url(../img/banner-5.png); }
 
 .main {
   margin: 0 auto;
