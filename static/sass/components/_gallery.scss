@@ -1,0 +1,54 @@
+.img-accordian{
+    margin: 50px 50px 0 50px;
+    .gallery {
+        display: flex;
+        flex-direction: row;
+        
+        height: 45vh;
+        width:  100%;
+
+        &-item {
+            flex: 1;
+            height: 100%;
+            
+            background-size: cover;
+            background-repeat: none;
+            transition: all 0.8s ease;
+
+            &:hover {
+                flex: 85%;
+                background-position: center;
+            }
+        }
+    }   
+} 
+
+.gallery-container {
+    .gallery-item {
+        &:first-of-type {
+            background-position: 75% 75%;
+            background-image: 
+                url(../img/banner-1.png);
+        }
+        &:nth-of-type(2) {
+            background-position: 80% 75%;
+            background-image: 
+                url(../img/banner-2.png);
+        }
+        &:nth-of-type(3) {
+            background-position: 85% 55%;
+            background-image: 
+                url(../img/banner-4.png);
+        }
+        &:nth-of-type(4) {
+            background-position: 80% 70%;
+            background-image: 
+                url(../img/banner-3.png);
+        }
+        &:nth-of-type(5) {
+            background-position: 10% 50%;
+            background-image: 
+                url(../img/banner-5.png);
+        }
+    }
+}
