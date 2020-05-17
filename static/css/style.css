@@ -362,7 +362,7 @@ ul {
   .img-accordian .gallery {
     display: flex;
     flex-direction: row;
-    height: 45vh;
+    height: 500px;
     width: 100%; }
     .img-accordian .gallery-item {
       flex: 1;
