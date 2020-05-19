@@ -422,8 +422,13 @@ ul {
       .main:hover .main__content-shows--item .show-details {
         color: white;
         transition: all .2s ease-in .2s; }
+    .main:hover .shows__items > div {
+      background-color: rgba(0, 0, 0, 0.13);
+      transition: all .2s ease-in .2s;
+      color: white; }
 
 .main {
+  width: 100%;
   line-height: 3.5rem;
   display: flex;
   flex-direction: column;
@@ -486,7 +491,7 @@ ul {
           color: black;
           transition: color ease-in 1s; }
   .main__side-nav {
-    margin: 0 50px 50px 0;
+    width: 25%;
     justify-content: flex-end; }
     .main__side-nav > div {
       margin-top: 50px; }
@@ -496,3 +501,27 @@ ul {
       font-family: 'Roboto', sans-serif;
       text-transform: uppercase;
       font-weight: 600; }
+
+.shows__items > div {
+  transition: all .5s ease-in .5s;
+  background-color: white;
+  width: 100%;
+  margin: 20px 0px;
+  border-radius: 5px;
+  color: black;
+  display: flex; }
+  .shows__items > div > img {
+    border-radius: 5px;
+    margin: 10px 10px 0px 10px;
+    height: 100px;
+    width: 75px;
+    background-size: cover;
+    background-position: center; }
+  .shows__items > div > a > div {
+    margin: 10px 5px;
+    line-height: 2rem;
+    font-size: 1.5rem;
+    text-transform: none; }
+    .shows__items > div > a > div > div {
+      text-transform: Capitalize;
+      font-size: 1.2rem; }

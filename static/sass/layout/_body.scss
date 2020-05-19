@@ -52,5 +52,14 @@
 
             }
         }
+
+        .shows__items {
+            &>div {
+                background-color:rgba(0, 0, 0, 0.13);
+                transition: all .2s ease-in .2s;
+                color: white;
+            }
+        }
     }
 }
+

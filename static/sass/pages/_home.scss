@@ -1,4 +1,5 @@
 .main {
+    width: 100%;
     line-height: 3.5rem;
     display: flex;
     flex-direction: column;
@@ -94,11 +95,8 @@
     }
 
 
-
-
-
     &__side-nav { 
-        margin: 0 50px 50px 0;
+        width: 25%;
         justify-content: flex-end;
         
         & > div {
@@ -111,8 +109,39 @@
             font-family: 'Roboto', sans-serif;
             text-transform: uppercase;
             font-weight: 600;
-
         }
     }
+}
+.shows__items { 
+    &>div {
+        transition: all .5s ease-in .5s;
+        background-color: white;
+        width: 100%;
+        margin: 20px 0px;
+        border-radius: 5px;
+        color: black;
+        display: flex;
+       
 
+        &>img { 
+            border-radius: 5px;
+            margin: 10px 10px 0px 10px;
+            height: 100px;
+            width: 75px;
+            background-size: cover;
+            background-position: center;  
+        }
+
+        &>a>div {
+            margin: 10px 5px;
+            line-height: 2rem;
+            font-size: 1.5rem;
+            text-transform: none;
+            &>div {
+                text-transform: Capitalize;
+                font-size: 1.2rem;
+            }
+        }
+
+    }
 }
