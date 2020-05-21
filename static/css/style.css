@@ -565,7 +565,7 @@ ul {
       font-size: 1.2rem; }
 
 .store-page {
-  background: url(../../bg2.png) repeat; }
+  background: url(../../bg2.png) repeat rgba(0, 0, 0, 0.438); }
 
 .store-navbar {
   display: flex;
