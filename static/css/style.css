@@ -421,6 +421,15 @@ ul {
     background-position: 10% 50%;
     background-image: url(../img/banner-5.png); }
 
+.carousel {
+  display: flex;
+  justify-content: center; }
+  .carousel img {
+    min-width: auto;
+    height: 100%;
+    width: 100%;
+    background-size: cover; }
+
 .main {
   margin: 0 auto;
   max-width: 1100px; }
@@ -585,3 +594,6 @@ ul {
     padding: 5px 7px;
     border-bottom: orange 2px solid;
     overflow: visible; }
+
+.shopping-collection {
+  display: grid; }
