@@ -592,10 +592,10 @@ ul {
   margin: 0 auto;
   font-size: 1.5rem; }
   .store-navbar2 li {
-    padding: 7px 7px; }
+    padding: 10px 7px; }
   .store-navbar2 .u-bottom-border:hover {
-    padding: 5px 7px;
-    border-bottom: orange 2px solid;
+    padding: 7px 7px;
+    border-bottom: orange 3px solid;
     overflow: visible; }
 
 .shopping-collection {
