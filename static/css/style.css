@@ -607,8 +607,8 @@ ul {
   .shopping-collection__item {
     position: relative;
     font-family: 'Lato', sans-serif;
-    font-size: 2.1rem;
-    text-transform: Capitalize;
+    font-size: 1.8rem;
+    text-transform: uppercase;
     margin: 15px; }
     .shopping-collection__item .text-container {
       background-color: rgba(0, 0, 0, 0.493);
