@@ -564,13 +564,16 @@ ul {
       text-transform: Capitalize;
       font-size: 1.2rem; }
 
+.store-page {
+  background: url(../../bg2.png) repeat; }
+
 .store-navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
   min-height: 50px;
-  background-color: rgba(0, 0, 0, 0.145); }
+  background-color: #181a1d; }
   .store-navbar .nav-cart {
     background-color: orange;
     padding: 10px;
@@ -596,7 +599,7 @@ ul {
     overflow: visible; }
 
 .shopping-collection {
-  margin: 50px; }
+  margin: 20px; }
   .shopping-collection__items {
     display: flex;
     flex-direction: row;
@@ -606,7 +609,7 @@ ul {
     font-family: 'Lato', sans-serif;
     font-size: 2.1rem;
     text-transform: Capitalize;
-    margin: 20px; }
+    margin: 15px; }
     .shopping-collection__item .text-container {
       background-color: rgba(0, 0, 0, 0.493);
       width: 100%;
@@ -620,6 +623,7 @@ ul {
       transform: translate(-50%, -50%);
       z-index: 10; }
     .shopping-collection__item img {
+      border-radius: 5px;
       z-index: 5;
       height: 360px;
       width: 360px; }
