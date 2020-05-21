@@ -10,17 +10,6 @@
     justify-content: center; 
     align-items: center;
 
-    // &:hover {
-    //     box-shadow: 0 0 15px orange;
-    //     border-bottom: rgb(255, 174, 0) 2px double;
-    //     // box-shadow: 
-    //     //     0 2px 10px orange,
-    //     //     0 2px 10px orange,
-    //     //     0 2px 3px white;
-    //     // border-bottom: orange 2px double;
-    //     transition: all .5s ease-in;
-    // }
-
 
     & nav { 
         align-self: center;
@@ -43,7 +32,7 @@
     &__links {
         list-style-type: none;
         margin: 0;
-        padding: 0 3rem;
+        // padding: 0 3rem;
        
         // magnifying glass
         .focused { 

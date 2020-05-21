@@ -1,4 +1,16 @@
-.u-text-bold {font-weight: bold;}
+.u-bold {font-weight: bold;}
+.u-bolder {font-weight: 1000;}
+.u-upper {text-transform: uppercase;}
+.u-lower {text-transform: lowercase;}
+
 .u-margin-50 {margin: 50px;}
 .u-line-ht-s {line-height:20px;}
 .u-line-ht-l {line-height: 50px;}
+.u-store2-padding {padding: 7px 0;}
+
+.u-text-white {color:white;}
+.u-text-fade {color: rgba(255, 255, 255, 0.425);}
+.u-text-black {color: black;}
+.u-text-orange {color: orange;}
+.u-white-glow {text-shadow: 0 0 5px white; }
+.u-letter-space { letter-spacing: .3rem;}

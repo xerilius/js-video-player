@@ -1,0 +1,36 @@
+.store-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    min-height: 50px;
+    background-color: rgba(0, 0, 0, 0.145);
+    .nav-cart {
+        background-color: orange;
+        padding: 10px;
+        color:black; 
+    }
+    .fas:hover {
+        color:rgb(255, 180, 40);
+    }
+    .fa-shopping-cart, .fa-shopping-cart:hover {
+        color: black;
+    }
+}
+
+.store-navbar2 {
+    background-color:rgba(0, 0, 0, 0.438);
+    min-height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    & li {
+        padding: 7px 7px;
+    }
+    .u-bottom-border:hover {
+        padding: 5px 7px;
+        border-bottom: orange 2px solid;
+        overflow: visible;
+    }
+}
