@@ -1,0 +1,24 @@
+.search-box {
+    position: relative;
+    height: 40px;
+    border-radius: 50px;
+    padding: 10px;
+    // background-color: rgba(3, 3, 3, 0.185);
+    
+    &:hover > .searchbar {
+        width: 170px;
+    }
+}
+
+.searchbar {
+    transition: 0.4s;
+    width: 0; // hides searchbar-input & only displays mag
+}
+
+.reveal-searchbar {
+    width: 170px;
+}
+
+.reveal-always {
+    width: 170px;
+}

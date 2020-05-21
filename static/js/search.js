@@ -8,7 +8,9 @@ searchbar.addEventListener("focusout", resetMagColor);
 
 function changeMagColor(evt) {
     magGlass.classList.add("focused");
+    searchbar.classList.add("reveal-searchbar");
 }
 function resetMagColor(evt) {
     magGlass.classList.remove("focused");
+    searchbar.classList.remove("reveal-searchbar");
 }
