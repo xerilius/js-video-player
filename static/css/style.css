@@ -577,7 +577,8 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 auto; }
+  margin: 0 auto;
+  font-size: 1.5rem; }
   .store-navbar2 li {
     padding: 7px 7px; }
   .store-navbar2 .u-bottom-border:hover {
