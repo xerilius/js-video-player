@@ -1,12 +1,70 @@
-.carousel { 
-    display: flex;
-    justify-content: center;
 
-    img {   
-        min-width: auto;
-        height: 100%;
-        width: 100%;
-        background-size: cover;       
+.carousel { 
+  position: relative;
+  margin: auto 0;
+  z-index: -10;
+  // max-height: 50vh;
+    &-item {
+      z-index: -10;
+        display: flex;
+        justify-content: center;
+        display: none; // hide images by default
+        
+        img {   
+          z-index: -10;
+            min-width: auto;
+            height: 100%;
+            width: 100%;
+            background-size: cover;     
+        }  
     }
- 
+
+    
+.next-slide, .prev-slide {
+  position: absolute;
+  top: 35%;
+  cursor: pointer;
+  font-size: 7rem;
+  z-index: 10;
 }
+
+.next-slide {
+  right: 5%;
+}
+
+.prev-slide {
+  left: 5%;
+}
+}
+
+.dots  {
+  position: relative;
+  bottom: 15px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  .dot {
+      cursor: pointer;
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+    }
+}
+
+
+  
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }

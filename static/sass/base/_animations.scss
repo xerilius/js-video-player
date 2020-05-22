@@ -1,4 +1,4 @@
-@keyframes glow{
+@keyframes glow {
     0% {
         box-shadow: 
         0 0 5px rgb(2, 2, 2),
@@ -20,3 +20,9 @@
         0 0 30px orange;
         }
   }
+
+// Carousel
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}

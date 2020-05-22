@@ -24,7 +24,7 @@
 <div class="store-navbar">
     <div class="navbar__logo">
         <img class="navbar__logo--img" src="./static/img/logo.png"></img> 
-        <a class="navbar__logo--link u-lower" href="index.html">
+        <a class="navbar__logo--link u-bold u-lower" href="index.html">
         Crunchyroll <span class="u-text-fade"> &nbsp;░&nbsp; </span> <span class="u-upper u-bold u-text-white u-white-glow">Store</span>
         </a>
     </div>
@@ -98,11 +98,43 @@
 </div>
 </header>
 
-<section class="carousel"> 
-    <img src="./static/img/store-banner.jpg" alt="">
-</section>
+<main>
+<div class="carousel"> 
+    <div class="carousel-item fade">
+        <img src="./static/img/store-banner1.jpg" alt="1">
+    </div>
 
-<section class="shopping-collection">
+    <div class="carousel-item fade">
+        <img src="./static/img/store-banner2.jpg" alt="2">
+    </div>
+
+    <div class="carousel-item fade">
+        <img src="./static/img/store-banner3.jpg" alt="3">
+    </div>
+
+    <div class="carousel-item fade">
+        <img src="./static/img/store-banner4.jpg" alt="4">
+    </div>
+    <div>
+       
+    </div> 
+    <div class="dots" style="text-align:center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+
+    <!-- Next and Previous Buttons -->
+    <span>
+        <a class="prev-slide" data-prev="-1" onclick="plusSlides(-1)">&#10094;</a>
+    </span>
+    <span>
+        <a class="next-slide" data-next="1" onclick="plusSlides(1)">&#10095;</a>
+    </span>
+</div>
+
+<div class="shopping-collection">
     <div class="shopping-collection__items">
     <div class="shopping-collection__item">
         <img src="./static/img/item1a.jpg">
@@ -190,13 +222,12 @@
             </div> 
         </div>
     </div>
-</section>
+</div>
 
+</main>
 
-<footer>
-
-</footer>
 
 <script src="./static/js/search.js"></script>
+<script src="./static/js/carousel.js"></script>
 </body>
 </html>
