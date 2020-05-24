@@ -8,6 +8,11 @@ nextButton.addEventListener('click', moveSlide);
 const dots = document.querySelectorAll(".dot");
 dots.forEach(dot => dot.addEventListener('click', currentSlide));
 
+setInterval(autoChange, 8000);
+function autoChange() {
+    showSlide(slideIndex += 1);
+}
+
 
 // Show first slide Initially
 let slideIndex = 1;
@@ -56,7 +61,7 @@ function showSlide(imgNum) {
     for (let i = 0; i < dots.length; i++) {
         dots[i].className = dots[i].className.replace(" active", "");
     }
-    
+
     dots[slideIndex-1].className += " active";
 }
 
