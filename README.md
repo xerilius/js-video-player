@@ -1,13 +1,15 @@
 <h1 align="center">Crunchyroll Simplified Dark Theme</h1>
 
 
+<h3 align="center">
 
+(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧   
 **「 L I V E  &nbsp;  D E M O S 」**   
-░ <a href="https://xerilius.github.io/crunchyroll-darkmode"> Homepage </a>  
-░ <a href="https://xerilius.github.io/crunchyroll-darkmode/store.html"> Store </a>  
-░ <a href="https://xerilius.github.io/crunchyroll-darkmode/shows.html"> Video Player</a>
+⤷ <a href="https://xerilius.github.io/crunchyroll-darkmode"> Homepage </a>  
+⤷ <a href="https://xerilius.github.io/crunchyroll-darkmode/store.html"> Store </a>  
+⤷ <a href="https://xerilius.github.io/crunchyroll-darkmode/shows.html"> Video Player</a>
+</h3>
 
-(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ 
 
 <b><ins>TECHNOLOGIES</ins></b> <br>
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
