@@ -1,7 +1,5 @@
 "use strict";
 
-const slides = document.getElementsByClassName("carousel-item");
-const dots = document.getElementsByClassName("dot");
 const prevButton = document.querySelector(".prev-slide");
 const nextButton = document.querySelector(".next-slide");
 
@@ -10,23 +8,36 @@ nextButton.addEventListener('click', moveSlide);
 
 // Show first slide Initially
 let slideIndex = 1;
-showSlide(1);
-
+showSlide(slideIndex);
 
 
 // Next/Previous Buttons Event Handler Function
 function moveSlide() {
-    console.log(this.dataset.move); // this returns element
-    // evt returns click event
-    let slideIncrement = this.dataset.move;
-    showSlide(slideIndex += slideIncrement)
+    let slideIncrement = parseFloat(this.dataset.move);
+    showSlide(slideIndex += slideIncrement);
 }
 
+// Function that displays carousel image
+function showSlide(imgNum) {
+    const slides = document.getElementsByClassName("carousel-item");
+    const dots = document.getElementsByClassName("dot");
+    // Hides Images 
+    for (let i = 0; i < slides.length; i += 1) {
+        slides[i].style.display = "none";
+    }
 
-function showSlide(totalIndex) {
-    slides[totalIndex].style.display= "flex";
+    // if (imgNum < slides.length) {
+        
+    //     slideIndex = slides.length;
+    // }
     
-    
-   
+    // if (imgNum > slides.length) {
+    //     slideIndex = 1;
+    // }
+
+
+    slides[imgNum-1].style.display= "flex";
+    console.log("totalIndex",  imgNum);
+  
 }
 

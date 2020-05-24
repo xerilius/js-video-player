@@ -432,8 +432,7 @@ ul {
   margin: auto 0;
   z-index: 100; }
   .carousel-item {
-    justify-content: center;
-    display: none; }
+    justify-content: center; }
     .carousel-item img {
       display: flex;
       min-width: auto;
