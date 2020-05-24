@@ -98,7 +98,6 @@
 </div>
 </header>
 
-<main>
 <div class="carousel"> 
     <div class="carousel-item fade">
         <img src="./static/img/store-banner1.jpg" alt="1">
@@ -108,31 +107,26 @@
         <img src="./static/img/store-banner2.jpg" alt="2">
     </div>
 
-    <div class="carousel-item fade">
+    <div class="carousel-item fade" >
         <img src="./static/img/store-banner3.jpg" alt="3">
     </div>
 
     <div class="carousel-item fade">
         <img src="./static/img/store-banner4.jpg" alt="4">
     </div>
+    
     <div>
-       
+    <a class="prev-slide" data-move="-1"><i class="fas fa-chevron-left"></i></a>
+    <a class="next-slide" data-move="1"><i class="fas fa-chevron-right"></i></a>
     </div> 
+
     <div class="dots" style="text-align:center">
         <span class="dot"></span>
         <span class="dot"></span>
         <span class="dot"></span>
         <span class="dot"></span>
     </div>
-
-    <!-- Next and Previous Buttons -->
-    <span>
-        <a class="prev-slide" data-prev="-1" onclick="plusSlides(-1)">&#10094;</a>
-    </span>
-    <span>
-        <a class="next-slide" data-next="1" onclick="plusSlides(1)">&#10095;</a>
-    </span>
-</div>
+</div> <!-- end of carousel -->
 
 <div class="shopping-collection">
     <div class="shopping-collection__items">
@@ -224,7 +218,7 @@
     </div>
 </div>
 
-</main>
+
 
 
 <script src="./static/js/search.js"></script>

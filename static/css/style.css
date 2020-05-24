@@ -430,32 +430,37 @@ ul {
 .carousel {
   position: relative;
   margin: auto 0;
-  z-index: -10; }
+  z-index: 100; }
   .carousel-item {
-    z-index: -10;
-    display: flex;
     justify-content: center;
     display: none; }
     .carousel-item img {
-      z-index: -10;
+      display: flex;
       min-width: auto;
       height: 100%;
       width: 100%;
       background-size: cover; }
   .carousel .next-slide, .carousel .prev-slide {
+    padding: 100px 30px;
     position: absolute;
     top: 35%;
     cursor: pointer;
     font-size: 7rem;
-    z-index: 10; }
+    color: white; }
   .carousel .next-slide {
-    right: 5%; }
+    right: 5%;
+    padding: 30px; }
+    .carousel .next-slide:hover {
+      color: #ffb01d; }
   .carousel .prev-slide {
-    left: 5%; }
+    left: 5%;
+    padding: 30px; }
+    .carousel .prev-slide:hover {
+      color: #ffb01d; }
 
 .dots {
   position: relative;
-  bottom: 15px;
+  bottom: 20px;
   left: 50%;
   transform: translate(-50%, -50%); }
   .dots .dot {
@@ -477,6 +482,12 @@ ul {
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
   animation-duration: 1.5s; }
+
+.hidden {
+  display: none; }
+
+.reveal {
+  display: block; }
 
 .search-box {
   position: relative;
