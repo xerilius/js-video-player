@@ -21,7 +21,8 @@ function moveSlide() {
 function showSlide(imgNum) {
     const slides = document.getElementsByClassName("carousel-item");
     const dots = document.getElementsByClassName("dot");
- 
+    
+    // Hide all images in carousel
     for (let i = 0; i < slides.length; i += 1) {
         slides[i].style.display = "none";
     }
