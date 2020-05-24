@@ -28,6 +28,9 @@ function showSlide(imgNum) {
     for (let i = 0; i < slides.length; i += 1) {
         slides[i].style.display = "none";
     }
+    for (let i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
 
     if (imgNum > slides.length) {
         slideIndex = 1;
@@ -40,11 +43,9 @@ function showSlide(imgNum) {
     }
 
     else {
-        slides[imgNum-1].style.display= "flex";
+        slides[slideIndex-1].style.display= "flex";
     }
-    
-    
-    
-    
+
+    dots[slideIndex-1].className += " active";
 }
 
