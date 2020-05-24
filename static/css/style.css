@@ -339,7 +339,8 @@ a {
       transition: all 0.3s ease 0s; }
     .navbar__links li {
       display: inline-block;
-      padding: 0 1rem; }
+      padding: 0 1rem;
+      vertical-align: middle; }
       .navbar__links li small {
         vertical-align: super; }
       .navbar__links li a {
@@ -355,6 +356,9 @@ a {
 
 ul {
   list-style: none; }
+
+.search-box {
+  margin-top: 15px; }
 
 .tooltip {
   position: relative;
