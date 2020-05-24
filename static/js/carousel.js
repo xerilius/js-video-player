@@ -8,6 +8,7 @@ nextButton.addEventListener('click', moveSlide);
 
 // Show first slide Initially
 let slideIndex = 1;
+
 showSlide(slideIndex);
 
 
@@ -15,6 +16,7 @@ showSlide(slideIndex);
 function moveSlide() {
     let slideIncrement = parseFloat(this.dataset.move);
     showSlide(slideIndex += slideIncrement);
+    console.log(slideIndex);
 }
 
 // Function that displays carousel image
@@ -32,8 +34,17 @@ function showSlide(imgNum) {
         slides[0].style.display= "flex";
     }
 
+    if (imgNum < 1) {
+        slideIndex = slides.length;
+        slides[(slides.length) -1].style.display = "flex";
+    }
+
     else {
         slides[imgNum-1].style.display= "flex";
     }
+    
+    
+    
+    
 }
 
