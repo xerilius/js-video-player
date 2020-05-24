@@ -3,11 +3,11 @@
 
 
 **「 L I V E  &nbsp;  D E M O S 」**   
-⋯⋯ <a href="https://xerilius.github.io/crunchyroll-darkmode"> Homepage </a>  
-⋯⋯ <a href="https://xerilius.github.io/crunchyroll-darkmode/store.html"> Store </a>  
-⋯⋯ <a href="https://xerilius.github.io/crunchyroll-darkmode/shows.html"> Video Player</a>
+░ <a href="https://xerilius.github.io/crunchyroll-darkmode"> Homepage </a>  
+░ <a href="https://xerilius.github.io/crunchyroll-darkmode/store.html"> Store </a>  
+░ <a href="https://xerilius.github.io/crunchyroll-darkmode/shows.html"> Video Player</a>
 
-(ﾉ◕ヮ◕)ﾉ*:･ﾟ✨ 
+(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ 
 
 <b><ins>TECHNOLOGIES</ins></b> <br>
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
