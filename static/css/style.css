@@ -347,7 +347,8 @@ a {
         transition: all 0.3s ease 0s; }
       .navbar__links li input {
         background-color: transparent;
-        border: 0; }
+        border: 0;
+        vertical-align: super; }
         .navbar__links li input:focus {
           outline: none; }
 
@@ -356,9 +357,6 @@ a {
 
 ul {
   list-style: none; }
-
-.search-box {
-  margin-top: 15px; }
 
 .tooltip {
   position: relative;
@@ -494,7 +492,8 @@ ul {
 
 .search-box {
   position: relative;
-  height: 40px; }
+  height: 40px;
+  padding: 10px 0; }
   .search-box:hover > .searchbar {
     width: 170px; }
 
