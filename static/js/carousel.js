@@ -21,23 +21,18 @@ function moveSlide() {
 function showSlide(imgNum) {
     const slides = document.getElementsByClassName("carousel-item");
     const dots = document.getElementsByClassName("dot");
-    // Hides Images 
+ 
     for (let i = 0; i < slides.length; i += 1) {
         slides[i].style.display = "none";
     }
 
-    // if (imgNum < slides.length) {
-        
-    //     slideIndex = slides.length;
-    // }
-    
-    // if (imgNum > slides.length) {
-    //     slideIndex = 1;
-    // }
+    if (imgNum > slides.length) {
+        slideIndex = 1;
+        slides[0].style.display= "flex";
+    }
 
-
-    slides[imgNum-1].style.display= "flex";
-    console.log("totalIndex",  imgNum);
-  
+    else {
+        slides[imgNum-1].style.display= "flex";
+    }
 }
 
