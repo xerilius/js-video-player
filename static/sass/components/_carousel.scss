@@ -4,8 +4,7 @@
   z-index: 100;
 
     &-item {
-        justify-content: center; 
-        // display: none;     
+        justify-content: center;      
         img {  
             display:flex; 
             min-width: auto;
@@ -19,7 +18,7 @@
   .next-slide, .prev-slide {
     padding: 100px 30px;
     position: absolute;
-    top: 35%;
+    top: 30%;
     cursor: pointer;
     font-size: 7rem;
     color: white;

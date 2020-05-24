@@ -442,7 +442,7 @@ ul {
   .carousel .next-slide, .carousel .prev-slide {
     padding: 100px 30px;
     position: absolute;
-    top: 35%;
+    top: 30%;
     cursor: pointer;
     font-size: 7rem;
     color: white; }
