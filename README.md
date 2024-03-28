@@ -6,9 +6,9 @@
 (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧  
 
 **「 L I V E  &nbsp;  D E M O S 」**   
-⤷ <a href="https://xerilius.github.io/crunchyroll-darkmode"> Homepage </a>  
-⤷ <a href="https://xerilius.github.io/crunchyroll-darkmode/store.html"> Store </a>  
-⤷ <a href="https://xerilius.github.io/crunchyroll-darkmode/shows.html"> Video Player</a>
+⤷ <a href="https://grchng.github.io/crunchyroll-darkmode"> Homepage </a>  
+⤷ <a href="https://grchng.github.io/crunchyroll-darkmode/store.html"> Store </a>  
+⤷ <a href="https://grchng.github.io/crunchyroll-darkmode/shows.html"> Video Player</a>
 </h3>
 
 
